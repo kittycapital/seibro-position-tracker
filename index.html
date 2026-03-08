@@ -75,12 +75,12 @@ body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--t1);
 
 /* ─── Chart ─── */
 .chart-sec{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px}
-.chart-sec h2{font-size:15px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.chart-sec h2{font-size:15px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;justify-content:center;gap:8px}
 .chart-wrap{position:relative;width:100%;height:800px}
 
 /* ─── Table ─── */
 .tbl-sec{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;overflow-x:auto}
-.tbl-sec h2{font-size:15px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.tbl-sec h2{font-size:15px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;justify-content:center;gap:8px}
 table{width:100%;border-collapse:collapse;font-size:13px}
 thead th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border-l);color:var(--t2);font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
 th.r{text-align:right}th.c{text-align:center}
@@ -201,17 +201,17 @@ tbody td{padding:10px 12px;vertical-align:middle}
 
     <!-- Chart -->
     <div class="chart-sec">
-      <h2>📊 순매수 결제금액 TOP30 (단위: USD)</h2>
+      <h2>순매수 결제금액 TOP30 (단위: USD)</h2>
       <div class="chart-wrap"><canvas id="barChart"></canvas></div>
     </div>
 
     <!-- Table -->
     <div class="tbl-sec">
-      <h2>📋 상세 데이터 TOP50</h2>
+      <h2>상세 데이터 TOP50</h2>
       <table>
         <thead><tr>
           <th class="c">순위</th><th class="c">변동</th><th>국가</th><th>종목명</th>
-          <th>종목코드</th><th class="r">매수결제</th><th class="r">매도결제</th>
+          <th>티커</th><th>종목코드</th><th class="r">매수결제</th><th class="r">매도결제</th>
           <th class="r">순매수결제</th><th class="r">순매수 변화</th>
         </tr></thead>
         <tbody id="tbody"></tbody>
@@ -259,6 +259,29 @@ let country = '전체';
 let chart = null;
 
 const FLAGS = {'미국':'🇺🇸','홍콩':'🇭🇰','중국':'🇨🇳','일본':'🇯🇵','베트남':'🇻🇳'};
+
+/* ─── ISIN → Ticker 매핑 ─── */
+const TICKERS = {
+  'US0378331005':'AAPL','US5949181045':'MSFT','US0231351067':'AMZN','US02079K3059':'GOOGL',
+  'US02079K1079':'GOOG','US88160R1014':'TSLA','US67066G1040':'NVDA','US30303M1027':'META',
+  'US4581401001':'INTC','US09075V1026':'AVGO','US5951121038':'MU','US64110L1061':'NFLX',
+  'US79466L3024':'CRM','US00724F1012':'ADBE','US0846707026':'BRK.B','US2546871060':'DIS',
+  'US91324P1021':'UNH','US5324571083':'LLY','US7427181091':'PG','US4370761029':'HD',
+  'US1101221083':'BMY','US8725901040':'TMUS','US0530151036':'ADP','US6541061031':'NKE',
+  'US46625H1005':'JPM','US68389X1054':'ORCL','US30231G1022':'XOM','US8740391003':'TSM',
+  'US46222L1089':'IONQ','US67079K1007':'SMR','US03823U1025':'AAOI','US3463751087':'FORM',
+  'US1725731079':'CRCL','US19247G1076':'IIVI','US4613886492':'QQQ','US74347X8314':'TQQQ',
+  'US74347R2067':'QLD','US4642867729':'EWY','US8085247976':'SCHD','US46654Q2030':'JEPQ',
+  'US9229083632':'VOO','US74347W3630':'AGQ','US92864M7983':'ETHU','US25461A3876':'MSOX',
+  'US25461A4482':'PLTU','US25460G2865':'TSLL','US4642872349':'SLV',
+  'CA85207K1075':'PSLV','US9311421039':'WMT','US22160K1051':'COST',
+  'US80004C2008':'SNDK','US30303M1027':'META',
+  'HK0000069689':'0700.HK','HK0941009539':'0941.HK','HK0700880927':'9988.HK',
+  'HK0388045442':'0388.HK','HK0005004626':'0005.HK',
+  'JP3633400001':'7203.T','JP3435000009':'6758.T','JP3756600007':'7974.T',
+  'JP3902900004':'9984.T','JP3371200001':'6861.T',
+};
+function getTicker(isin){ return TICKERS[isin] || ''; }
 const fmtS = n => {
   const a = Math.abs(n);
   if(a>=1e9) return (n/1e9).toFixed(1)+'B';
@@ -408,6 +431,7 @@ function renderTable(d){
       <td class="chg">${cb}</td>
       <td><span class="fl">${FLAGS[i.country]||''}</span></td>
       <td class="sn">${i.name}</td>
+      <td class="ic" style="color:var(--cyan)">${getTicker(i.isin)}</td>
       <td class="ic">${i.isin}</td>
       <td class="amt">$${fmtF(i.buy_amount)}</td>
       <td class="amt">$${fmtF(i.sell_amount)}</td>
