@@ -120,125 +120,69 @@ def fetch_seibro_data(country_code="ALL", period="1M"):
 
 
 def parse_xml_response(xml_text):
-    """세이브로 XML 응답 파싱"""
+    """
+    세이브로 XML 응답 파싱
+
+    실제 응답 구조:
+    <data vectorkey="0" type="Document">
+      <result>
+        <RNUM value="1"/>
+        <NATION_NM value="미국"/>
+        <ISIN value="US25459W4583"/>
+        <KOR_SECN_NM value="DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF"/>
+        <SUM_FRSEC_BUY_AMT value="1493437711"/>
+        <SUM_FRSEC_SELL_AMT value="471083798"/>
+        <SUM_FRSEC_NET_BUY_AMT value="1022353913"/>
+        <SUM_FRSEC_TOT_AMT value="1"/>
+      </result>
+      <result>...</result>
+      ...
+    </data>
+    """
     results = []
 
     try:
         root = ET.fromstring(xml_text)
 
-        # 디버그: 최상위 구조 확인
-        all_tags = set()
-        for elem in root.iter():
-            all_tags.add(elem.tag)
-
-        # WebSquare는 다양한 XML 구조를 사용함
-        # 가능한 패턴들을 순서대로 시도
-
-        rows = find_data_rows(root)
+        # <result> 태그가 각 종목 행
+        rows = root.findall(".//result")
 
         if not rows:
-            print(f"  [DEBUG] 파싱할 행 없음. 태그 목록: {sorted(all_tags)}")
+            print(f"  [WARN] <result> 태그 없음")
             print(f"  [DEBUG] 응답 첫 500자:\n{xml_text[:500]}")
             return results
 
         for row in rows:
-            record = extract_record(row)
-            if record:
-                results.append(record)
+            # 각 하위 요소의 value 속성에서 값 추출
+            def val(tag_name):
+                el = row.find(tag_name)
+                if el is not None:
+                    return el.get("value", "").strip()
+                return ""
 
-        if results:
-            print(f"  [OK] {len(results)}개 종목 파싱")
-        else:
-            print(f"  [WARN] 행은 찾았으나 레코드 추출 실패. 샘플 행:\n{ET.tostring(rows[0], encoding='unicode')[:300]}")
+            isin = val("ISIN")
+            name = val("KOR_SECN_NM")
+
+            if not isin and not name:
+                continue
+
+            results.append({
+                "rank": val("RNUM") or str(len(results) + 1),
+                "country": val("NATION_NM"),
+                "isin": isin,
+                "name": name,
+                "buy_amount": parse_amount(val("SUM_FRSEC_BUY_AMT")),
+                "sell_amount": parse_amount(val("SUM_FRSEC_SELL_AMT")),
+                "net_buy_amount": parse_amount(val("SUM_FRSEC_NET_BUY_AMT"))
+            })
+
+        print(f"  [OK] {len(results)}개 종목 파싱")
 
     except ET.ParseError as e:
         print(f"  [ERROR] XML 파싱 에러: {e}")
         print(f"  [DEBUG] 응답 첫 300자:\n{xml_text[:300]}")
 
     return results
-
-
-def find_data_rows(root):
-    """XML에서 데이터 행 찾기"""
-    # 패턴 1: vector > data 하위에 행이 있는 경우
-    rows = root.findall(".//vector/data")
-    if rows and len(rows) > 1:
-        return rows
-
-    # 패턴 2: result 하위
-    rows = root.findall(".//result//data")
-    if rows and len(rows) > 1:
-        return rows
-
-    # 패턴 3: 직접 data 태그
-    rows = root.findall(".//data")
-    if rows and len(rows) > 1:
-        return rows
-
-    # 패턴 4: row 태그
-    rows = root.findall(".//row")
-    if rows:
-        return rows
-
-    # 패턴 5: record 태그
-    rows = root.findall(".//record")
-    if rows:
-        return rows
-
-    # 패턴 6: stkItem 등 커스텀 태그
-    for tag in root.iter():
-        children = list(tag)
-        if len(children) >= 5:
-            # 자식이 5개 이상이면 데이터 행일 가능성 높음
-            # 같은 레벨의 형제 요소 확인
-            parent = root.find(f".//{tag.tag}/..")
-            if parent is not None:
-                siblings = parent.findall(tag.tag)
-                if len(siblings) >= 3:
-                    return siblings
-
-    return []
-
-
-def extract_record(element):
-    """XML 요소에서 레코드 추출"""
-    # 방법 1: 하위 요소에서 추출
-    fields = {}
-    for child in element:
-        tag = child.tag.upper()
-        val = child.text or child.get("value", "")
-        if val:
-            fields[tag] = val.strip()
-
-    # 방법 2: 속성에서 추출
-    if not fields:
-        for key, val in element.attrib.items():
-            fields[key.upper()] = val.strip()
-
-    if not fields:
-        return None
-
-    # 필드 매핑 (다양한 이름 패턴)
-    rank = fields.get("RANK", fields.get("RNK", fields.get("NO", "")))
-    country = fields.get("NATL_NM", fields.get("CNTRY_NM", fields.get("COUNTRY", "")))
-    isin = fields.get("ISIN_CD", fields.get("STK_CD", fields.get("ISIN", "")))
-    name = fields.get("SECN_NM", fields.get("STK_NM", fields.get("ITEM_NM", "")))
-    buy = fields.get("BUY_AMT", fields.get("BUY_SETL_AMT", "0"))
-    sell = fields.get("SEL_AMT", fields.get("SEL_SETL_AMT", "0"))
-    net = fields.get("NET_BUY_AMT", fields.get("NET_BUY_SETL_AMT", "0"))
-
-    if not isin and not name:
-        return None
-
-    return {
-        "rank": rank or "",
-        "country": country or "",
-        "isin": isin or "",
-        "name": name or "",
-        "buy_amount": parse_amount(buy),
-        "sell_amount": parse_amount(sell),
-        "net_buy_amount": parse_amount(net)
-    }
 
 
 def parse_amount(value):
