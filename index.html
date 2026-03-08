@@ -508,13 +508,29 @@ async function init(){
   }
   sendHeight();
   window.addEventListener('resize', sendHeight);
-  new MutationObserver(sendHeight).observe(document.body,{childList:true,subtree:true});
+  /* MutationObserver는 탭 전환 시에만 동작하도록 content div 감시 */
+  var contentEl = document.getElementById('content');
+  if(contentEl) new MutationObserver(sendHeight).observe(contentEl,{childList:true,subtree:true,attributes:false});
 }
 
-/* ─── iframe 높이 동기화 ─── */
-var _lastH=0,_ht;
-function sendHeight(){clearTimeout(_ht);_ht=setTimeout(function(){var h=document.body.offsetHeight;if(Math.abs(h-_lastH)>5){_lastH=h;window.parent.postMessage({type:'resize',height:h},'*');}},150);}
-window.addEventListener('message',function(e){if(e.data&&e.data.type==='requestResize'){_lastH=0;sendHeight();}});
+/* ─── iframe 높이 동기화 (피드백 루프 방지) ─── */
+var _lastH=0,_ht,_locked=false;
+function sendHeight(){
+  if(_locked) return;
+  clearTimeout(_ht);
+  _ht=setTimeout(function(){
+    /* body.offsetHeight 대신 실제 콘텐츠 끝 위치를 측정 */
+    var wm=document.querySelector('.wm');
+    var h=wm ? (wm.offsetTop+wm.offsetHeight+20) : document.body.scrollHeight;
+    if(Math.abs(h-_lastH)>10){
+      _lastH=h;
+      _locked=true;
+      window.parent.postMessage({type:'resize',height:h},'*');
+      setTimeout(function(){_locked=false;},500);
+    }
+  },200);
+}
+window.addEventListener('message',function(e){if(e.data&&e.data.type==='requestResize'){_lastH=0;_locked=false;sendHeight();}});
 
 document.addEventListener('DOMContentLoaded', init);
 </script>
