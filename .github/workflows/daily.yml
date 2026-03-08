@@ -1,0 +1,36 @@
+name: SEIBro 외화증권 데이터 수집
+
+on:
+  schedule:
+    # 매일 한국시간 오전 9:30 (UTC 00:30), 평일만
+    - cron: '30 0 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Collect SEIBro data
+        run: python scripts/scraper.py --real
+
+      - name: Generate dashboard JSON
+        run: python scripts/generate_dashboard.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "📊 SEIBro update $(date +%Y-%m-%d)"
+          git push
