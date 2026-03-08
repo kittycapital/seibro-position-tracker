@@ -2,7 +2,6 @@ name: SEIBro 외화증권 데이터 수집
 
 on:
   schedule:
-    # 매일 한국시간 오전 9:30 (UTC 00:30), 평일만
     - cron: '30 0 * * 1-5'
   workflow_dispatch:
 
@@ -12,8 +11,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+
+      - name: Pull latest
+        run: git pull origin main || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,7 +36,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git pull origin main --rebase || true
           git add data/
           git diff --staged --quiet || git commit -m "📊 SEIBro update $(date +%Y-%m-%d)"
-          git push origin main --force-with-lease
+          git push --force
