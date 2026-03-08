@@ -15,6 +15,7 @@ import csv
 import json
 import os
 import sys
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 # 프로젝트 루트 기준 경로
@@ -23,13 +24,25 @@ DATA_DIR = os.path.join(ROOT_DIR, "data")
 HISTORY_DIR = os.path.join(DATA_DIR, "history")
 CUMULATIVE_DIR = os.path.join(DATA_DIR, "cumulative")
 
-# 세이브로 WebSquare 내부 API 엔드포인트
-# ※ 실제 사용 시 브라우저 Network 탭에서 정확한 URL/파라미터를 확인하세요
+# ─── 세이브로 API 설정 (cURL에서 추출) ───
 SEIBRO_URL = "https://seibro.or.kr/websquare/engine/proworks/callServletService.jsp"
 
-# 국가 코드 매핑 (세이브로 내부 코드)
+HEADERS = {
+    "Accept": "application/xml",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Content-Type": 'application/xml; charset="UTF-8"',
+    "Origin": "https://seibro.or.kr",
+    "Referer": "https://seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/ovsSec/BIP_CNTS10013V.xml&menuNo=921",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "submissionid": "submission_getImptFrcurStkSetlAmtList",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+}
+
+# 국가 코드 매핑
 COUNTRY_CODES = {
-    "전체": "",
+    "전체": "ALL",
     "미국": "US",
     "홍콩": "HK",
     "중국": "CN",
@@ -37,14 +50,10 @@ COUNTRY_CODES = {
     "베트남": "VN"
 }
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Referer": "https://seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/ovsSec/BIP_CNTS10013V.xml&menuNo=921",
-    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "Accept": "application/json, text/javascript, */*; q=0.01",
-    "X-Requested-With": "XMLHttpRequest",
-    "Origin": "https://seibro.or.kr"
-}
+# S_TYPE: 1=보관금액, 2=결제금액
+# D_TYPE: 1=매수결제, 2=매도결제, 3=매수+매도결제, 4=순매수결제
+S_TYPE = "2"
+D_TYPE = "4"
 
 CSV_FIELDS = [
     "date", "period", "country_filter", "rank", "country",
@@ -59,79 +68,187 @@ def get_date_range(period="1M"):
         start_date = end_date - timedelta(days=7)
     elif period == "1M":
         start_date = end_date - timedelta(days=30)
-    elif period == "3M":
-        start_date = end_date - timedelta(days=90)
     else:
         start_date = end_date - timedelta(days=30)
     return start_date.strftime("%Y%m%d"), end_date.strftime("%Y%m%d")
 
 
-def fetch_seibro_data(country_code="", period="1M"):
-    """
-    세이브로 외화증권 종목별 결제내역 TOP50 조회
+def build_xml_payload(country_code="ALL", start_dt="20260207", end_dt="20260306"):
+    """세이브로 요청 XML 생성"""
+    return (
+        '<reqParam action="getImptFrcurStkSetlAmtList" '
+        'task="ksd.safe.bip.cnts.OvsSec.process.OvsSecIsinPTask">'
+        '<MENU_NO value="921"/>'
+        '<CMM_BTN_ABBR_NM value="total_search,openall,print,hwp,word,pdf,seach,"/>'
+        '<W2XPATH value="/IPORTAL/user/ovsSec/BIP_CNTS10013V.xml"/>'
+        '<PG_START value="1"/>'
+        '<PG_END value="50"/>'
+        f'<START_DT value="{start_dt}"/>'
+        f'<END_DT value="{end_dt}"/>'
+        f'<S_TYPE value="{S_TYPE}"/>'
+        f'<S_COUNTRY value="{country_code}"/>'
+        f'<D_TYPE value="{D_TYPE}"/>'
+        '</reqParam>'
+    )
 
-    ※ 중요: 아래 payload는 예시 구조입니다.
-    실제 사용 시 브라우저 F12 > Network 탭에서
-    조회 버튼 클릭 시 발생하는 XHR 요청의
-    Request Payload를 정확히 복사해서 사용하세요.
 
-    Copy as cURL → https://curlconverter.com/ 에서
-    Python 코드로 변환하면 가장 정확합니다.
-    """
-    start_date, end_date = get_date_range(period)
-
-    # ============================================================
-    # ※ 아래 payload는 WebSquare 구조 기반 예시입니다.
-    #    실제 파라미터는 Network 탭에서 확인 필요!
-    # ============================================================
-    payload = {
-        "w2xPath": "/IPORTAL/user/ovsSec/BIP_CNTS10013V.xml",
-        "menuNo": "921",
-        "sttlStatDvCd": "1",       # 결제금액
-        "sttlTpDvCd": "4",         # 순매수결제
-        "strtDt": start_date,
-        "endDt": end_date,
-        "natlCd": country_code,
-        "pageIndex": "1",
-        "pageUnit": "50"
-    }
+def fetch_seibro_data(country_code="ALL", period="1M"):
+    """세이브로 외화증권 종목별 결제내역 TOP50 조회"""
+    start_dt, end_dt = get_date_range(period)
+    payload = build_xml_payload(country_code, start_dt, end_dt)
 
     try:
-        resp = requests.post(SEIBRO_URL, data=payload, headers=HEADERS, timeout=30)
+        resp = requests.post(
+            SEIBRO_URL,
+            data=payload.encode("utf-8"),
+            headers=HEADERS,
+            timeout=30
+        )
         resp.raise_for_status()
-        data = resp.json()
-        return parse_response(data)
+
+        # 응답이 XML인지 확인
+        content = resp.text.strip()
+        if not content.startswith("<"):
+            print(f"  [WARN] 비정상 응답 (첫 200자): {content[:200]}")
+            return None
+
+        return parse_xml_response(content)
+
     except requests.exceptions.RequestException as e:
         print(f"  [ERROR] 요청 실패 ({country_code}): {e}")
         return None
 
 
-def parse_response(data):
-    """
-    세이브로 응답 파싱
-    ※ 실제 응답 키 구조에 맞게 수정 필요
-    """
+def parse_xml_response(xml_text):
+    """세이브로 XML 응답 파싱"""
     results = []
-    try:
-        items = data.get("body", {}).get("list", [])
-        if not items:
-            items = data.get("result", {}).get("list", [])
-        if not items:
-            items = data if isinstance(data, list) else []
 
-        for item in items:
-            results.append({
-                "rank": item.get("rank", ""),
-                "country": item.get("natlNm", ""),
-                "isin": item.get("isinCd", ""),
-                "name": item.get("secnNm", ""),
-                "buy_amount": int(str(item.get("buyAmt", "0")).replace(",", "")),
-                "sell_amount": int(str(item.get("selAmt", "0")).replace(",", "")),
-                "net_buy_amount": int(str(item.get("netBuyAmt", "0")).replace(",", ""))
-            })
-    except Exception as e:
-        print(f"  [ERROR] 파싱 실패: {e}")
+    try:
+        root = ET.fromstring(xml_text)
+
+        # 디버그: 최상위 구조 확인
+        all_tags = set()
+        for elem in root.iter():
+            all_tags.add(elem.tag)
+
+        # WebSquare는 다양한 XML 구조를 사용함
+        # 가능한 패턴들을 순서대로 시도
+
+        rows = find_data_rows(root)
+
+        if not rows:
+            print(f"  [DEBUG] 파싱할 행 없음. 태그 목록: {sorted(all_tags)}")
+            print(f"  [DEBUG] 응답 첫 500자:\n{xml_text[:500]}")
+            return results
+
+        for row in rows:
+            record = extract_record(row)
+            if record:
+                results.append(record)
+
+        if results:
+            print(f"  [OK] {len(results)}개 종목 파싱")
+        else:
+            print(f"  [WARN] 행은 찾았으나 레코드 추출 실패. 샘플 행:\n{ET.tostring(rows[0], encoding='unicode')[:300]}")
+
+    except ET.ParseError as e:
+        print(f"  [ERROR] XML 파싱 에러: {e}")
+        print(f"  [DEBUG] 응답 첫 300자:\n{xml_text[:300]}")
+
     return results
+
+
+def find_data_rows(root):
+    """XML에서 데이터 행 찾기"""
+    # 패턴 1: vector > data 하위에 행이 있는 경우
+    rows = root.findall(".//vector/data")
+    if rows and len(rows) > 1:
+        return rows
+
+    # 패턴 2: result 하위
+    rows = root.findall(".//result//data")
+    if rows and len(rows) > 1:
+        return rows
+
+    # 패턴 3: 직접 data 태그
+    rows = root.findall(".//data")
+    if rows and len(rows) > 1:
+        return rows
+
+    # 패턴 4: row 태그
+    rows = root.findall(".//row")
+    if rows:
+        return rows
+
+    # 패턴 5: record 태그
+    rows = root.findall(".//record")
+    if rows:
+        return rows
+
+    # 패턴 6: stkItem 등 커스텀 태그
+    for tag in root.iter():
+        children = list(tag)
+        if len(children) >= 5:
+            # 자식이 5개 이상이면 데이터 행일 가능성 높음
+            # 같은 레벨의 형제 요소 확인
+            parent = root.find(f".//{tag.tag}/..")
+            if parent is not None:
+                siblings = parent.findall(tag.tag)
+                if len(siblings) >= 3:
+                    return siblings
+
+    return []
+
+
+def extract_record(element):
+    """XML 요소에서 레코드 추출"""
+    # 방법 1: 하위 요소에서 추출
+    fields = {}
+    for child in element:
+        tag = child.tag.upper()
+        val = child.text or child.get("value", "")
+        if val:
+            fields[tag] = val.strip()
+
+    # 방법 2: 속성에서 추출
+    if not fields:
+        for key, val in element.attrib.items():
+            fields[key.upper()] = val.strip()
+
+    if not fields:
+        return None
+
+    # 필드 매핑 (다양한 이름 패턴)
+    rank = fields.get("RANK", fields.get("RNK", fields.get("NO", "")))
+    country = fields.get("NATL_NM", fields.get("CNTRY_NM", fields.get("COUNTRY", "")))
+    isin = fields.get("ISIN_CD", fields.get("STK_CD", fields.get("ISIN", "")))
+    name = fields.get("SECN_NM", fields.get("STK_NM", fields.get("ITEM_NM", "")))
+    buy = fields.get("BUY_AMT", fields.get("BUY_SETL_AMT", "0"))
+    sell = fields.get("SEL_AMT", fields.get("SEL_SETL_AMT", "0"))
+    net = fields.get("NET_BUY_AMT", fields.get("NET_BUY_SETL_AMT", "0"))
+
+    if not isin and not name:
+        return None
+
+    return {
+        "rank": rank or "",
+        "country": country or "",
+        "isin": isin or "",
+        "name": name or "",
+        "buy_amount": parse_amount(buy),
+        "sell_amount": parse_amount(sell),
+        "net_buy_amount": parse_amount(net)
+    }
+
+
+def parse_amount(value):
+    """금액 문자열 → 정수"""
+    if not value:
+        return 0
+    try:
+        return int(str(value).replace(",", "").replace(" ", ""))
+    except ValueError:
+        return 0
 
 
 def save_snapshot(all_data, period, today):
@@ -148,7 +265,8 @@ def save_snapshot(all_data, period, today):
                     row = {**record, "date": today, "period": period, "country_filter": country_filter}
                     writer.writerow(row)
 
-    print(f"  [OK] 스냅샷: {filepath}")
+    count = sum(len(r) for r in all_data.values() if r)
+    print(f"  [OK] 스냅샷: {os.path.basename(filepath)} ({count}개 레코드)")
 
 
 def append_cumulative(all_data, period, today):
@@ -167,7 +285,7 @@ def append_cumulative(all_data, period, today):
                     row = {**record, "date": today, "period": period, "country_filter": country_filter}
                     writer.writerow(row)
 
-    print(f"  [OK] 누적: {filepath}")
+    print(f"  [OK] 누적: {os.path.basename(filepath)}")
 
 
 def collect_real_data():
@@ -177,13 +295,16 @@ def collect_real_data():
     print(f"세이브로 외화증권 결제내역 수집 - {today}")
     print(f"{'='*60}")
 
+    import time
+
     for period in ["1W", "1M"]:
         print(f"\n--- {period} 데이터 수집 ---")
         all_data = {}
         for country_name, country_code in COUNTRY_CODES.items():
-            print(f"  수집: {country_name} ({country_code or '전체'})")
+            print(f"  수집: {country_name} ({country_code})")
             data = fetch_seibro_data(country_code, period)
             all_data[country_name] = data if data else []
+            time.sleep(2)  # 요청 간 2초 딜레이
 
         save_snapshot(all_data, period, today)
         append_cumulative(all_data, period, today)
@@ -201,41 +322,36 @@ def generate_sample_data():
 
     sample_stocks = {
         "미국": [
-            ("US02079K3059", "ALPHABET INC CL A"),
-            ("US88160R1014", "TESLA INC"),
+            ("US25461A3876", "DIREXION SHARES ETF TRUST DAILY MSCI S"),
             ("US5949181045", "MICROSOFT CORP"),
-            ("US0378331005", "APPLE INC"),
             ("US0231351067", "AMAZON.COM INC"),
+            ("US4613886492", "INVESCO NASDAQ 100 ETF"),
+            ("US74347X8314", "PROSHARES ULTRAPRO QQQ ETF"),
+            ("US4642867729", "ISHARES MSCI SOUTH KOREA ETF"),
+            ("US8085247976", "SCHWAB US DIVIDEND EQUITY ETF"),
+            ("US46654Q2030", "JP MORGAN NASDAQ EQUITY PREMIUM IN"),
+            ("US1725731079", "Circle Internet"),
+            ("CA85207K1075", "SPROTT PHYSICAL SILVER TRUST"),
+            ("US92864M7983", "VOLATILITY SHARES TRUST 2X ETHER ETF"),
+            ("US9229083632", "VANGUARD SP 500 ETF"),
+            ("US68389X1054", "ORACLE CORP"),
+            ("US74347R2067", "PROSHARES ULTRA QQQ ETF"),
+            ("US8740391003", "TAIWAN SEMICONDUCTOR MFG"),
+            ("US46222L1089", "IONQ INC"),
+            ("US19247G1076", "II-VI INCORPORATED"),
+            ("US30231G1022", "EXXON MOBIL CORP"),
+            ("US67079K1007", "NUSCALE POWER CORP"),
+            ("US03823U1025", "APPLIED OPTOELECTRONICS INC"),
+            ("US3463751087", "FORMFACTOR INC"),
+            ("US88160R1014", "TESLA INC"),
+            ("US0378331005", "APPLE INC"),
             ("US67066G1040", "NVIDIA CORP"),
             ("US30303M1027", "META PLATFORMS INC"),
-            ("US80004C2008", "SANDISK CORP"),
+            ("US02079K3059", "ALPHABET INC CL A"),
             ("US5951121038", "MICRON TECHNOLOGY INC"),
-            ("US46625H1005", "JPMORGAN CHASE & CO"),
-            ("US4612021034", "INVESCO NASDAQ 100 ETF"),
-            ("US46222L1089", "IONQ INC"),
-            ("US4642872349", "ISHARES SILVER TRUST ETF"),
-            ("US9220428745", "VANGUARD S&P 500 ETF"),
-            ("US74347W3630", "PROSHARES ULTRA SILVER ETF"),
-            ("US25461A4482", "DIREXION DAILY PLTR BULL 2X"),
-            ("US46654Q2030", "JP MORGAN NASDAQ EQ PREMIUM"),
-            ("US02079K1079", "ALPHABET INC CL C"),
-            ("US92864M7983", "VOLSHARES 2X ETHER ETF"),
-            ("US25460G2865", "DIREXION DAILY TSLA BULL 2X"),
             ("US4581401001", "INTEL CORP"),
             ("US09075V1026", "BROADCOM INC"),
-            ("US00724F1012", "ADOBE INC"),
-            ("US79466L3024", "SALESFORCE INC"),
             ("US64110L1061", "NETFLIX INC"),
-            ("US0846707026", "BERKSHIRE HATHAWAY CL B"),
-            ("US2546871060", "WALT DISNEY CO"),
-            ("US91324P1021", "UNITEDHEALTH GROUP"),
-            ("US5324571083", "ELI LILLY AND CO"),
-            ("US7427181091", "PROCTER & GAMBLE CO"),
-            ("US4370761029", "HOME DEPOT INC"),
-            ("US1101221083", "BRISTOL-MYERS SQUIBB"),
-            ("US8725901040", "T-MOBILE US INC"),
-            ("US0530151036", "AUTOMATIC DATA PROCESSING"),
-            ("US6541061031", "NIKE INC CL B"),
         ],
         "홍콩": [
             ("HK0000069689", "TENCENT HOLDINGS"),
@@ -264,77 +380,49 @@ def generate_sample_data():
 
     for period in ["1W", "1M"]:
         mult = 0.3 if period == "1W" else 1.0
-
-        # --- 현재(today) 데이터 생성 ---
         current_all = {}
         for country_filter in COUNTRY_CODES:
             if country_filter == "전체":
                 pool = [(c, isin, nm) for c, stocks in sample_stocks.items() for isin, nm in stocks]
             else:
                 pool = [(country_filter, isin, nm) for isin, nm in sample_stocks.get(country_filter, [])]
-
             records = []
             for country, isin, name in pool[:50]:
                 buy = int(random.uniform(80_000_000, 1_500_000_000) * mult)
                 sell = int(buy * random.uniform(0.15, 0.85))
-                net = buy - sell
-                records.append({
-                    "rank": "", "country": country, "isin": isin,
+                records.append({"rank": "", "country": country, "isin": isin,
                     "name": name, "buy_amount": buy, "sell_amount": sell,
-                    "net_buy_amount": net
-                })
-
+                    "net_buy_amount": buy - sell})
             records.sort(key=lambda x: x["net_buy_amount"], reverse=True)
-            for i, r in enumerate(records):
-                r["rank"] = str(i + 1)
+            for i, r in enumerate(records): r["rank"] = str(i + 1)
             current_all[country_filter] = records
-
         save_snapshot(current_all, period, today)
         append_cumulative(current_all, period, today)
 
-        # --- 이전(yesterday) 데이터 생성 (변화 비교용) ---
         prev_all = {}
-        for country_filter, records in current_all.items():
-            prev_records = []
+        for cf, records in current_all.items():
+            prev = []
             for r in records:
                 pr = r.copy()
                 pr["buy_amount"] = int(r["buy_amount"] * random.uniform(0.6, 1.5))
                 pr["sell_amount"] = int(r["sell_amount"] * random.uniform(0.6, 1.5))
                 pr["net_buy_amount"] = pr["buy_amount"] - pr["sell_amount"]
-                prev_records.append(pr)
-
-            # 일부 종목 이탈 시뮬레이션 (3개 제거)
-            if len(prev_records) > 8:
-                remove_indices = random.sample(range(3, len(prev_records)), min(3, len(prev_records) - 3))
-                prev_records = [r for i, r in enumerate(prev_records) if i not in remove_indices]
-
-            # 신규 진입 시뮬레이션 (2개 추가)
-            extras = [
-                ("US", "US9311421039", "WALMART INC"),
-                ("US", "US22160K1051", "COSTCO WHOLESALE CORP"),
-            ]
-            for ec, eisin, ename in extras[:2]:
-                buy = int(random.uniform(50_000_000, 300_000_000) * mult)
-                sell = int(buy * random.uniform(0.3, 0.7))
-                prev_records.append({
-                    "rank": "", "country": ec, "isin": eisin, "name": ename,
-                    "buy_amount": buy, "sell_amount": sell, "net_buy_amount": buy - sell
-                })
-
-            prev_records.sort(key=lambda x: x["net_buy_amount"], reverse=True)
-            for i, r in enumerate(prev_records):
-                r["rank"] = str(i + 1)
-            prev_all[country_filter] = prev_records
-
+                prev.append(pr)
+            if len(prev) > 8:
+                rm = random.sample(range(3, len(prev)), min(3, len(prev)-3))
+                prev = [r for i, r in enumerate(prev) if i not in rm]
+            prev.sort(key=lambda x: x["net_buy_amount"], reverse=True)
+            for i, r in enumerate(prev): r["rank"] = str(i+1)
+            prev_all[cf] = prev
         save_snapshot(prev_all, period, yesterday)
         append_cumulative(prev_all, period, yesterday)
 
-    print(f"\n[완료] 샘플 데이터 생성 완료! (today={today}, prev={yesterday})")
+    print(f"\n[완료] 샘플 생성 완료! ({today}, {yesterday})")
 
 
 if __name__ == "__main__":
     if "--real" in sys.argv:
         collect_real_data()
     else:
-        print("[INFO] 샘플 데이터 모드 (--real 플래그로 실제 수집)")
+        print("[INFO] 샘플 모드 (--real 플래그로 실제 수집)")
         generate_sample_data()
