@@ -19,10 +19,13 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests yfinance
 
       - name: Collect SEIBro data
         run: python scripts/scraper.py --real
+
+      - name: Resolve tickers
+        run: python scripts/resolve_tickers.py
 
       - name: Generate dashboard JSON
         run: python scripts/generate_dashboard.py
