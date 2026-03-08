@@ -440,7 +440,16 @@ async function init(){
     document.getElementById('loadingMsg').innerHTML =
       `<span style="color:var(--red)">데이터 로딩 실패: ${e.message}</span><br><small style="color:var(--t3)">data/dashboard_data.json 파일을 확인해주세요</small>`;
   }
+  sendHeight();
+  window.addEventListener('resize', sendHeight);
+  new MutationObserver(sendHeight).observe(document.body,{childList:true,subtree:true});
 }
+
+/* ─── iframe 높이 동기화 ─── */
+var _lastH=0,_ht;
+function sendHeight(){clearTimeout(_ht);_ht=setTimeout(function(){var h=document.body.offsetHeight;if(Math.abs(h-_lastH)>5){_lastH=h;window.parent.postMessage({type:'resize',height:h},'*');}},150);}
+window.addEventListener('message',function(e){if(e.data&&e.data.type==='requestResize'){_lastH=0;sendHeight();}});
+
 document.addEventListener('DOMContentLoaded', init);
 </script>
 </body>
