@@ -29,7 +29,8 @@
   --purple: #b388ff;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--t1);line-height:1.6;min-height:100vh}
+body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--t1);line-height:1.6;min-height:100vh;overflow-x:hidden}
+html{overflow-x:hidden}
 .mono{font-family:'JetBrains Mono',monospace}
 
 /* ─── Header ─── */
@@ -79,7 +80,7 @@ body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--t1);
 .chart-wrap{position:relative;width:100%;height:800px}
 
 /* ─── Table ─── */
-.tbl-sec{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;overflow-x:auto}
+.tbl-sec{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .tbl-sec h2{font-size:15px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;justify-content:center;gap:8px}
 table{width:100%;border-collapse:collapse;font-size:13px}
 thead th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border-l);color:var(--t2);font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap}
@@ -127,18 +128,26 @@ tbody td{padding:10px 12px;vertical-align:middle}
 @keyframes sp{to{transform:rotate(360deg)}}
 
 /* ─── Responsive ─── */
+.hide-m{}  /* will be hidden on mobile */
+
 @media(max-width:768px){
   .hdr h1{font-size:18px}
   .sum-row{grid-template-columns:repeat(2,1fr);gap:8px}
   .sum .vl{font-size:22px}
   .tab-row{flex-wrap:wrap;gap:8px}
   .tg+.tg{margin-left:0}
+  .tg{flex-wrap:wrap}
   .tb{padding:6px 10px;font-size:12px}
   .hl-grid{grid-template-columns:1fr}
   .chart-wrap{height:600px}
-  .sn{max-width:140px}
-  table{font-size:12px}
-  thead th,tbody td{padding:8px 6px}
+  .sn{max-width:120px;font-size:12px}
+  table{font-size:11px}
+  thead th,tbody td{padding:8px 4px}
+  .hide-m{display:none !important}
+  .rk{font-size:12px;width:30px}
+  .amt{font-size:11px}
+  .fl{font-size:12px}
+  .bdg{font-size:10px;padding:2px 6px}
   .share-bar{flex-direction:column;gap:10px;align-items:stretch}
   .share-bar-preview{max-width:100%}
   .share-bar-buttons{justify-content:center;flex-wrap:wrap}
@@ -147,8 +156,20 @@ tbody td{padding:10px 12px;vertical-align:middle}
 }
 @media(max-width:480px){
   .hdr{padding:16px 12px 0}
-  .tab-row,.sum-row,.main{padding-left:12px;padding-right:12px}
-  .chart-wrap{height:500px}
+  .tab-row,.sum-row,.main{padding-left:8px;padding-right:8px}
+  .chart-wrap{height:450px}
+  .sum-row{gap:6px}
+  .sum{padding:12px 8px}
+  .sum .vl{font-size:18px}
+  .sum .lb{font-size:10px}
+  .hdr-sub{font-size:11px}
+  .hl{padding:14px}
+  .hl h3{font-size:13px}
+  .hl-item{font-size:12px}
+  .chart-sec{padding:14px 10px}
+  .tbl-sec{padding:14px 8px}
+  thead th,tbody td{padding:6px 3px}
+  .sn{max-width:90px;font-size:11px}
 }
 </style>
 </head>
@@ -211,7 +232,7 @@ tbody td{padding:10px 12px;vertical-align:middle}
       <table>
         <thead><tr>
           <th class="c">순위</th><th class="c">변동</th><th>국가</th><th>종목명</th>
-          <th>티커</th><th>종목코드</th><th class="r">매수결제</th><th class="r">매도결제</th>
+          <th>티커</th><th class="hide-m">종목코드</th><th class="r hide-m">매수결제</th><th class="r hide-m">매도결제</th>
           <th class="r">순매수결제</th><th class="r">순매수 변화</th>
         </tr></thead>
         <tbody id="tbody"></tbody>
@@ -473,9 +494,9 @@ function renderTable(d){
       <td><span class="fl">${FLAGS[i.country]||''}</span></td>
       <td class="sn">${i.name}</td>
       <td class="ic" style="color:var(--cyan)">${getTicker(i.isin)}</td>
-      <td class="ic">${i.isin}</td>
-      <td class="amt">$${fmtF(i.buy_amount)}</td>
-      <td class="amt">$${fmtF(i.sell_amount)}</td>
+      <td class="ic hide-m">${i.isin}</td>
+      <td class="amt hide-m">$${fmtF(i.buy_amount)}</td>
+      <td class="amt hide-m">$${fmtF(i.sell_amount)}</td>
       <td class="amt pos">$${fmtF(i.net_buy_amount)}</td>
       <td>${ac}</td>
     </tr>`;
