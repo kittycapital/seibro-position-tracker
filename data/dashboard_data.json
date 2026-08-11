@@ -1,6 +1,5346 @@
 {
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-11",
   "current": {
+    "1W": {
+      "전체": [
+        {
+          "rank": "1",
+          "country": "미국",
+          "isin": "US0231351067",
+          "name": "AMAZON.COM INC",
+          "buy_amount": 218520562,
+          "sell_amount": 43019367,
+          "net_buy_amount": 175501195
+        },
+        {
+          "rank": "2",
+          "country": "미국",
+          "isin": "US84615Q1031",
+          "name": "SPACE EXPLORATION TECHN-CL A",
+          "buy_amount": 137392634,
+          "sell_amount": 14304330,
+          "net_buy_amount": 123088304
+        },
+        {
+          "rank": "3",
+          "country": "미국",
+          "isin": "US0937121079",
+          "name": "BLOOM ENERGY CORP CL A",
+          "buy_amount": 111575394,
+          "sell_amount": 8119242,
+          "net_buy_amount": 103456152
+        },
+        {
+          "rank": "4",
+          "country": "미국",
+          "isin": "US4581401001",
+          "name": "INTEL CORP",
+          "buy_amount": 112502575,
+          "sell_amount": 20600751,
+          "net_buy_amount": 91901824
+        },
+        {
+          "rank": "5",
+          "country": "미국",
+          "isin": "US92537N1081",
+          "name": "VERTIV HOLDINGS CO",
+          "buy_amount": 81742160,
+          "sell_amount": 1578263,
+          "net_buy_amount": 80163896
+        },
+        {
+          "rank": "6",
+          "country": "미국",
+          "isin": "US02079K3059",
+          "name": "ALPHABET INC CL A",
+          "buy_amount": 124852291,
+          "sell_amount": 50280627,
+          "net_buy_amount": 74571664
+        },
+        {
+          "rank": "7",
+          "country": "미국",
+          "isin": "US88160R1014",
+          "name": "TESLA INC",
+          "buy_amount": 120266664,
+          "sell_amount": 48195712,
+          "net_buy_amount": 72070952
+        },
+        {
+          "rank": "8",
+          "country": "미국",
+          "isin": "US03823U1025",
+          "name": "APPLIED OPTOELECTRONICS INC",
+          "buy_amount": 76844991,
+          "sell_amount": 5445463,
+          "net_buy_amount": 71399528
+        },
+        {
+          "rank": "9",
+          "country": "미국",
+          "isin": "US46090E1038",
+          "name": "INVESCO QQQ TRUST SRS 1 ETF",
+          "buy_amount": 89948643,
+          "sell_amount": 19878833,
+          "net_buy_amount": 70069810
+        },
+        {
+          "rank": "10",
+          "country": "미국",
+          "isin": "US46222L1089",
+          "name": "IONQ INC",
+          "buy_amount": 76691657,
+          "sell_amount": 7526908,
+          "net_buy_amount": 69164749
+        },
+        {
+          "rank": "11",
+          "country": "미국",
+          "isin": "US74347R2067",
+          "name": "PROSHARES ULTRA QQQ ETF",
+          "buy_amount": 74675536,
+          "sell_amount": 7870577,
+          "net_buy_amount": 66804959
+        },
+        {
+          "rank": "12",
+          "country": "미국",
+          "isin": "US46138G6492",
+          "name": "INVESCO NASDAQ 100 ETF",
+          "buy_amount": 70438263,
+          "sell_amount": 4898749,
+          "net_buy_amount": 65539514
+        },
+        {
+          "rank": "13",
+          "country": "미국",
+          "isin": "US5738741041",
+          "name": "MARVELL TECHNOLOGY INC",
+          "buy_amount": 70640423,
+          "sell_amount": 5912541,
+          "net_buy_amount": 64727882
+        },
+        {
+          "rank": "14",
+          "country": "미국",
+          "isin": "NL0009805522",
+          "name": "YANDEX NV CL A",
+          "buy_amount": 76088116,
+          "sell_amount": 12635767,
+          "net_buy_amount": 63452349
+        },
+        {
+          "rank": "15",
+          "country": "미국",
+          "isin": "US9229083632",
+          "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+          "buy_amount": 71340196,
+          "sell_amount": 8787920,
+          "net_buy_amount": 62552276
+        },
+        {
+          "rank": "16",
+          "country": "미국",
+          "isin": "US46436E7186",
+          "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+          "buy_amount": 101044270,
+          "sell_amount": 40317629,
+          "net_buy_amount": 60726641
+        },
+        {
+          "rank": "17",
+          "country": "미국",
+          "isin": "US25461H2913",
+          "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+          "buy_amount": 110722547,
+          "sell_amount": 51238584,
+          "net_buy_amount": 59483964
+        },
+        {
+          "rank": "18",
+          "country": "미국",
+          "isin": "US19247G1076",
+          "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+          "buy_amount": 60437724,
+          "sell_amount": 3245046,
+          "net_buy_amount": 57192679
+        },
+        {
+          "rank": "19",
+          "country": "미국",
+          "isin": "US78392B2060",
+          "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+          "buy_amount": 110185864,
+          "sell_amount": 55177281,
+          "net_buy_amount": 55008584
+        },
+        {
+          "rank": "20",
+          "country": "미국",
+          "isin": "US0079031078",
+          "name": "ADVANCED MICRO DEVICES INC",
+          "buy_amount": 98689464,
+          "sell_amount": 46569092,
+          "net_buy_amount": 52120372
+        },
+        {
+          "rank": "21",
+          "country": "미국",
+          "isin": "US23804L1035",
+          "name": "DATADOG INC CL A",
+          "buy_amount": 53435509,
+          "sell_amount": 2643072,
+          "net_buy_amount": 50792437
+        },
+        {
+          "rank": "22",
+          "country": "미국",
+          "isin": "US8085247976",
+          "name": "SCHWAB US DIVIDEND EQUITY ETF",
+          "buy_amount": 70977313,
+          "sell_amount": 21982322,
+          "net_buy_amount": 48994991
+        },
+        {
+          "rank": "23",
+          "country": "미국",
+          "isin": "US25402D1028",
+          "name": "DIGITALOCEAN HOLDINGS INC",
+          "buy_amount": 47065179,
+          "sell_amount": 313418,
+          "net_buy_amount": 46751762
+        },
+        {
+          "rank": "24",
+          "country": "미국",
+          "isin": "US0382221051",
+          "name": "APPLIED MATERIALS INC",
+          "buy_amount": 48355718,
+          "sell_amount": 6481963,
+          "net_buy_amount": 41873755
+        },
+        {
+          "rank": "25",
+          "country": "미국",
+          "isin": "US0378331005",
+          "name": "APPLE INC",
+          "buy_amount": 52809199,
+          "sell_amount": 14903024,
+          "net_buy_amount": 37906176
+        },
+        {
+          "rank": "26",
+          "country": "미국",
+          "isin": "US46654Q2030",
+          "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+          "buy_amount": 38215065,
+          "sell_amount": 6265555,
+          "net_buy_amount": 31949509
+        },
+        {
+          "rank": "27",
+          "country": "미국",
+          "isin": "US80004C2008",
+          "name": "SNDSK CRP ORD WI",
+          "buy_amount": 154630550,
+          "sell_amount": 123585465,
+          "net_buy_amount": 31045085
+        },
+        {
+          "rank": "28",
+          "country": "중국",
+          "isin": "US1234567899",
+          "name": "Dummy ISIN (Not Available)",
+          "buy_amount": 32456913,
+          "sell_amount": 1470664,
+          "net_buy_amount": 30986249
+        },
+        {
+          "rank": "29",
+          "country": "미국",
+          "isin": "US46138G6153",
+          "name": "INVESCO PHLX SEMICONDUCTOR ETF",
+          "buy_amount": 35053964,
+          "sell_amount": 6004386,
+          "net_buy_amount": 29049578
+        },
+        {
+          "rank": "30",
+          "country": "미국",
+          "isin": "US4642875235",
+          "name": "ISHARES SEMICONDUCTOR ETF",
+          "buy_amount": 56656210,
+          "sell_amount": 29728873,
+          "net_buy_amount": 26927337
+        },
+        {
+          "rank": "31",
+          "country": "미국",
+          "isin": "US55024U1097",
+          "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+          "buy_amount": 38728199,
+          "sell_amount": 12745891,
+          "net_buy_amount": 25982308
+        },
+        {
+          "rank": "32",
+          "country": "미국",
+          "isin": "US6974351057",
+          "name": "PALO ALTO NETWORKS INC",
+          "buy_amount": 26710912,
+          "sell_amount": 1118525,
+          "net_buy_amount": 25592388
+        },
+        {
+          "rank": "33",
+          "country": "미국",
+          "isin": "US8740391003",
+          "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+          "buy_amount": 29856271,
+          "sell_amount": 6923219,
+          "net_buy_amount": 22933051
+        },
+        {
+          "rank": "34",
+          "country": "미국",
+          "isin": "US18915M1071",
+          "name": "CLOUDFLARE INC",
+          "buy_amount": 23109463,
+          "sell_amount": 607015,
+          "net_buy_amount": 22502448
+        },
+        {
+          "rank": "35",
+          "country": "미국",
+          "isin": "US78463V1070",
+          "name": "SPDR GOLD SHARES ETF",
+          "buy_amount": 25812361,
+          "sell_amount": 3410831,
+          "net_buy_amount": 22401529
+        },
+        {
+          "rank": "36",
+          "country": "미국",
+          "isin": "US78464A8541",
+          "name": "SPDR PORTFOLIO SP 500 ETF",
+          "buy_amount": 23514428,
+          "sell_amount": 1589863,
+          "net_buy_amount": 21924565
+        },
+        {
+          "rank": "37",
+          "country": "미국",
+          "isin": "US30303M1027",
+          "name": "META PLATFORMS INC CL A",
+          "buy_amount": 37117838,
+          "sell_amount": 16756288,
+          "net_buy_amount": 20361549
+        },
+        {
+          "rank": "38",
+          "country": "미국",
+          "isin": "US60937P1066",
+          "name": "MONGODB INC",
+          "buy_amount": 21280378,
+          "sell_amount": 1886771,
+          "net_buy_amount": 19393607
+        },
+        {
+          "rank": "39",
+          "country": "미국",
+          "isin": "US5951121038",
+          "name": "MICRON TECHNOLOGY INC",
+          "buy_amount": 141253937,
+          "sell_amount": 122216347,
+          "net_buy_amount": 19037590
+        },
+        {
+          "rank": "40",
+          "country": "미국",
+          "isin": "AU0000185993",
+          "name": "IRIS ENERGY LTD",
+          "buy_amount": 24274106,
+          "sell_amount": 8551654,
+          "net_buy_amount": 15722452
+        },
+        {
+          "rank": "41",
+          "country": "미국",
+          "isin": "US02072L5654",
+          "name": "ALPHA ARCHITECT 1-3 MONTH BOX ETF",
+          "buy_amount": 25240504,
+          "sell_amount": 10171705,
+          "net_buy_amount": 15068800
+        },
+        {
+          "rank": "42",
+          "country": "미국",
+          "isin": "US4642874576",
+          "name": "ISHARES 1-3 YEAR TREASURY BOND ETF",
+          "buy_amount": 15285065,
+          "sell_amount": 370416,
+          "net_buy_amount": 14914649
+        },
+        {
+          "rank": "43",
+          "country": "미국",
+          "isin": "US46428Q1094",
+          "name": "ISHARES SILVER TRUST ETF",
+          "buy_amount": 16716378,
+          "sell_amount": 2170021,
+          "net_buy_amount": 14546356
+        },
+        {
+          "rank": "44",
+          "country": "미국",
+          "isin": "US68389X1054",
+          "name": "ORACLE CORP",
+          "buy_amount": 22946811,
+          "sell_amount": 8577014,
+          "net_buy_amount": 14369797
+        },
+        {
+          "rank": "45",
+          "country": "미국",
+          "isin": "US82706C1080",
+          "name": "SILICON MOTION TECHNOLOGY CORP ADR",
+          "buy_amount": 14742175,
+          "sell_amount": 647256,
+          "net_buy_amount": 14094919
+        },
+        {
+          "rank": "46",
+          "country": "미국",
+          "isin": "US92826C8394",
+          "name": "VISA INC CL A",
+          "buy_amount": 15166876,
+          "sell_amount": 1287769,
+          "net_buy_amount": 13879107
+        },
+        {
+          "rank": "47",
+          "country": "미국",
+          "isin": "US78433H6751",
+          "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
+          "buy_amount": 16046336,
+          "sell_amount": 2533224,
+          "net_buy_amount": 13513112
+        },
+        {
+          "rank": "48",
+          "country": "미국",
+          "isin": "US1491231015",
+          "name": "CATERPILLAR INC",
+          "buy_amount": 12774726,
+          "sell_amount": 1088421,
+          "net_buy_amount": 11686305
+        },
+        {
+          "rank": "49",
+          "country": "미국",
+          "isin": "US04626A1034",
+          "name": "ASTERA LABS ORD",
+          "buy_amount": 12635770,
+          "sell_amount": 2107669,
+          "net_buy_amount": 10528101
+        },
+        {
+          "rank": "50",
+          "country": "미국",
+          "isin": "US7731211089",
+          "name": "ROCKET LAB CORPORATION COM USD0.0001 MRGR 978814817 US7731221062",
+          "buy_amount": 24968910,
+          "sell_amount": 14754792,
+          "net_buy_amount": 10214118
+        }
+      ],
+      "미국": [
+        {
+          "rank": "1",
+          "country": "미국",
+          "isin": "US0231351067",
+          "name": "AMAZON.COM INC",
+          "buy_amount": 218520562,
+          "sell_amount": 43019367,
+          "net_buy_amount": 175501195
+        },
+        {
+          "rank": "2",
+          "country": "미국",
+          "isin": "US84615Q1031",
+          "name": "SPACE EXPLORATION TECHN-CL A",
+          "buy_amount": 137392634,
+          "sell_amount": 14304330,
+          "net_buy_amount": 123088304
+        },
+        {
+          "rank": "3",
+          "country": "미국",
+          "isin": "US0937121079",
+          "name": "BLOOM ENERGY CORP CL A",
+          "buy_amount": 111575394,
+          "sell_amount": 8119242,
+          "net_buy_amount": 103456152
+        },
+        {
+          "rank": "4",
+          "country": "미국",
+          "isin": "US4581401001",
+          "name": "INTEL CORP",
+          "buy_amount": 112502575,
+          "sell_amount": 20600751,
+          "net_buy_amount": 91901824
+        },
+        {
+          "rank": "5",
+          "country": "미국",
+          "isin": "US92537N1081",
+          "name": "VERTIV HOLDINGS CO",
+          "buy_amount": 81742160,
+          "sell_amount": 1578263,
+          "net_buy_amount": 80163896
+        },
+        {
+          "rank": "6",
+          "country": "미국",
+          "isin": "US02079K3059",
+          "name": "ALPHABET INC CL A",
+          "buy_amount": 124852291,
+          "sell_amount": 50280627,
+          "net_buy_amount": 74571664
+        },
+        {
+          "rank": "7",
+          "country": "미국",
+          "isin": "US88160R1014",
+          "name": "TESLA INC",
+          "buy_amount": 120266664,
+          "sell_amount": 48195712,
+          "net_buy_amount": 72070952
+        },
+        {
+          "rank": "8",
+          "country": "미국",
+          "isin": "US03823U1025",
+          "name": "APPLIED OPTOELECTRONICS INC",
+          "buy_amount": 76844991,
+          "sell_amount": 5445463,
+          "net_buy_amount": 71399528
+        },
+        {
+          "rank": "9",
+          "country": "미국",
+          "isin": "US46090E1038",
+          "name": "INVESCO QQQ TRUST SRS 1 ETF",
+          "buy_amount": 89948643,
+          "sell_amount": 19878833,
+          "net_buy_amount": 70069810
+        },
+        {
+          "rank": "10",
+          "country": "미국",
+          "isin": "US46222L1089",
+          "name": "IONQ INC",
+          "buy_amount": 76691657,
+          "sell_amount": 7526908,
+          "net_buy_amount": 69164749
+        },
+        {
+          "rank": "11",
+          "country": "미국",
+          "isin": "US74347R2067",
+          "name": "PROSHARES ULTRA QQQ ETF",
+          "buy_amount": 74675536,
+          "sell_amount": 7870577,
+          "net_buy_amount": 66804959
+        },
+        {
+          "rank": "12",
+          "country": "미국",
+          "isin": "US46138G6492",
+          "name": "INVESCO NASDAQ 100 ETF",
+          "buy_amount": 70438263,
+          "sell_amount": 4898749,
+          "net_buy_amount": 65539514
+        },
+        {
+          "rank": "13",
+          "country": "미국",
+          "isin": "US5738741041",
+          "name": "MARVELL TECHNOLOGY INC",
+          "buy_amount": 70640423,
+          "sell_amount": 5912541,
+          "net_buy_amount": 64727882
+        },
+        {
+          "rank": "14",
+          "country": "미국",
+          "isin": "NL0009805522",
+          "name": "YANDEX NV CL A",
+          "buy_amount": 76088116,
+          "sell_amount": 12635767,
+          "net_buy_amount": 63452349
+        },
+        {
+          "rank": "15",
+          "country": "미국",
+          "isin": "US9229083632",
+          "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+          "buy_amount": 71340196,
+          "sell_amount": 8787920,
+          "net_buy_amount": 62552276
+        },
+        {
+          "rank": "16",
+          "country": "미국",
+          "isin": "US46436E7186",
+          "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+          "buy_amount": 101044270,
+          "sell_amount": 40317629,
+          "net_buy_amount": 60726641
+        },
+        {
+          "rank": "17",
+          "country": "미국",
+          "isin": "US25461H2913",
+          "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+          "buy_amount": 110722547,
+          "sell_amount": 51238584,
+          "net_buy_amount": 59483964
+        },
+        {
+          "rank": "18",
+          "country": "미국",
+          "isin": "US19247G1076",
+          "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+          "buy_amount": 60437724,
+          "sell_amount": 3245046,
+          "net_buy_amount": 57192679
+        },
+        {
+          "rank": "19",
+          "country": "미국",
+          "isin": "US78392B2060",
+          "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+          "buy_amount": 110185864,
+          "sell_amount": 55177281,
+          "net_buy_amount": 55008584
+        },
+        {
+          "rank": "20",
+          "country": "미국",
+          "isin": "US0079031078",
+          "name": "ADVANCED MICRO DEVICES INC",
+          "buy_amount": 98689464,
+          "sell_amount": 46569092,
+          "net_buy_amount": 52120372
+        },
+        {
+          "rank": "21",
+          "country": "미국",
+          "isin": "US23804L1035",
+          "name": "DATADOG INC CL A",
+          "buy_amount": 53435509,
+          "sell_amount": 2643072,
+          "net_buy_amount": 50792437
+        },
+        {
+          "rank": "22",
+          "country": "미국",
+          "isin": "US8085247976",
+          "name": "SCHWAB US DIVIDEND EQUITY ETF",
+          "buy_amount": 70977313,
+          "sell_amount": 21982322,
+          "net_buy_amount": 48994991
+        },
+        {
+          "rank": "23",
+          "country": "미국",
+          "isin": "US25402D1028",
+          "name": "DIGITALOCEAN HOLDINGS INC",
+          "buy_amount": 47065179,
+          "sell_amount": 313418,
+          "net_buy_amount": 46751762
+        },
+        {
+          "rank": "24",
+          "country": "미국",
+          "isin": "US0382221051",
+          "name": "APPLIED MATERIALS INC",
+          "buy_amount": 48355718,
+          "sell_amount": 6481963,
+          "net_buy_amount": 41873755
+        },
+        {
+          "rank": "25",
+          "country": "미국",
+          "isin": "US0378331005",
+          "name": "APPLE INC",
+          "buy_amount": 52809199,
+          "sell_amount": 14903024,
+          "net_buy_amount": 37906176
+        },
+        {
+          "rank": "26",
+          "country": "미국",
+          "isin": "US46654Q2030",
+          "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+          "buy_amount": 38215065,
+          "sell_amount": 6265555,
+          "net_buy_amount": 31949509
+        },
+        {
+          "rank": "27",
+          "country": "미국",
+          "isin": "US80004C2008",
+          "name": "SNDSK CRP ORD WI",
+          "buy_amount": 154630550,
+          "sell_amount": 123585465,
+          "net_buy_amount": 31045085
+        },
+        {
+          "rank": "28",
+          "country": "미국",
+          "isin": "US46138G6153",
+          "name": "INVESCO PHLX SEMICONDUCTOR ETF",
+          "buy_amount": 35053964,
+          "sell_amount": 6004386,
+          "net_buy_amount": 29049578
+        },
+        {
+          "rank": "29",
+          "country": "미국",
+          "isin": "US4642875235",
+          "name": "ISHARES SEMICONDUCTOR ETF",
+          "buy_amount": 56656210,
+          "sell_amount": 29728873,
+          "net_buy_amount": 26927337
+        },
+        {
+          "rank": "30",
+          "country": "미국",
+          "isin": "US55024U1097",
+          "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+          "buy_amount": 38728199,
+          "sell_amount": 12745891,
+          "net_buy_amount": 25982308
+        },
+        {
+          "rank": "31",
+          "country": "미국",
+          "isin": "US6974351057",
+          "name": "PALO ALTO NETWORKS INC",
+          "buy_amount": 26710912,
+          "sell_amount": 1118525,
+          "net_buy_amount": 25592388
+        },
+        {
+          "rank": "32",
+          "country": "미국",
+          "isin": "US8740391003",
+          "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+          "buy_amount": 29856271,
+          "sell_amount": 6923219,
+          "net_buy_amount": 22933051
+        },
+        {
+          "rank": "33",
+          "country": "미국",
+          "isin": "US18915M1071",
+          "name": "CLOUDFLARE INC",
+          "buy_amount": 23109463,
+          "sell_amount": 607015,
+          "net_buy_amount": 22502448
+        },
+        {
+          "rank": "34",
+          "country": "미국",
+          "isin": "US78463V1070",
+          "name": "SPDR GOLD SHARES ETF",
+          "buy_amount": 25812361,
+          "sell_amount": 3410831,
+          "net_buy_amount": 22401529
+        },
+        {
+          "rank": "35",
+          "country": "미국",
+          "isin": "US78464A8541",
+          "name": "SPDR PORTFOLIO SP 500 ETF",
+          "buy_amount": 23514428,
+          "sell_amount": 1589863,
+          "net_buy_amount": 21924565
+        },
+        {
+          "rank": "36",
+          "country": "미국",
+          "isin": "US30303M1027",
+          "name": "META PLATFORMS INC CL A",
+          "buy_amount": 37117838,
+          "sell_amount": 16756288,
+          "net_buy_amount": 20361549
+        },
+        {
+          "rank": "37",
+          "country": "미국",
+          "isin": "US60937P1066",
+          "name": "MONGODB INC",
+          "buy_amount": 21280378,
+          "sell_amount": 1886771,
+          "net_buy_amount": 19393607
+        },
+        {
+          "rank": "38",
+          "country": "미국",
+          "isin": "US5951121038",
+          "name": "MICRON TECHNOLOGY INC",
+          "buy_amount": 141253937,
+          "sell_amount": 122216347,
+          "net_buy_amount": 19037590
+        },
+        {
+          "rank": "39",
+          "country": "미국",
+          "isin": "AU0000185993",
+          "name": "IRIS ENERGY LTD",
+          "buy_amount": 24274106,
+          "sell_amount": 8551654,
+          "net_buy_amount": 15722452
+        },
+        {
+          "rank": "40",
+          "country": "미국",
+          "isin": "US02072L5654",
+          "name": "ALPHA ARCHITECT 1-3 MONTH BOX ETF",
+          "buy_amount": 25240504,
+          "sell_amount": 10171705,
+          "net_buy_amount": 15068800
+        },
+        {
+          "rank": "41",
+          "country": "미국",
+          "isin": "US4642874576",
+          "name": "ISHARES 1-3 YEAR TREASURY BOND ETF",
+          "buy_amount": 15285065,
+          "sell_amount": 370416,
+          "net_buy_amount": 14914649
+        },
+        {
+          "rank": "42",
+          "country": "미국",
+          "isin": "US46428Q1094",
+          "name": "ISHARES SILVER TRUST ETF",
+          "buy_amount": 16716378,
+          "sell_amount": 2170021,
+          "net_buy_amount": 14546356
+        },
+        {
+          "rank": "43",
+          "country": "미국",
+          "isin": "US68389X1054",
+          "name": "ORACLE CORP",
+          "buy_amount": 22946811,
+          "sell_amount": 8577014,
+          "net_buy_amount": 14369797
+        },
+        {
+          "rank": "44",
+          "country": "미국",
+          "isin": "US82706C1080",
+          "name": "SILICON MOTION TECHNOLOGY CORP ADR",
+          "buy_amount": 14742175,
+          "sell_amount": 647256,
+          "net_buy_amount": 14094919
+        },
+        {
+          "rank": "45",
+          "country": "미국",
+          "isin": "US92826C8394",
+          "name": "VISA INC CL A",
+          "buy_amount": 15166876,
+          "sell_amount": 1287769,
+          "net_buy_amount": 13879107
+        },
+        {
+          "rank": "46",
+          "country": "미국",
+          "isin": "US78433H6751",
+          "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
+          "buy_amount": 16046336,
+          "sell_amount": 2533224,
+          "net_buy_amount": 13513112
+        },
+        {
+          "rank": "47",
+          "country": "미국",
+          "isin": "US1491231015",
+          "name": "CATERPILLAR INC",
+          "buy_amount": 12774726,
+          "sell_amount": 1088421,
+          "net_buy_amount": 11686305
+        },
+        {
+          "rank": "48",
+          "country": "미국",
+          "isin": "US04626A1034",
+          "name": "ASTERA LABS ORD",
+          "buy_amount": 12635770,
+          "sell_amount": 2107669,
+          "net_buy_amount": 10528101
+        },
+        {
+          "rank": "49",
+          "country": "미국",
+          "isin": "US7731211089",
+          "name": "ROCKET LAB CORPORATION COM USD0.0001 MRGR 978814817 US7731221062",
+          "buy_amount": 24968910,
+          "sell_amount": 14754792,
+          "net_buy_amount": 10214118
+        },
+        {
+          "rank": "50",
+          "country": "미국",
+          "isin": "US78462F1030",
+          "name": "SPDR SP 500 ETF TRUST",
+          "buy_amount": 22807740,
+          "sell_amount": 13688982,
+          "net_buy_amount": 9118758
+        }
+      ],
+      "홍콩": [
+        {
+          "rank": "1",
+          "country": "홍콩",
+          "isin": "HK0000642568",
+          "name": "CSOP HANG SENG TECH INDEX ETF (HKD)",
+          "buy_amount": 7251630,
+          "sell_amount": 69290,
+          "net_buy_amount": 7182340
+        },
+        {
+          "rank": "2",
+          "country": "홍콩",
+          "isin": "CNE100007SR6",
+          "name": "03308",
+          "buy_amount": 7018440,
+          "sell_amount": 2015612,
+          "net_buy_amount": 5002828
+        },
+        {
+          "rank": "3",
+          "country": "홍콩",
+          "isin": "HK0001205258",
+          "name": "XL2CSOPHYNIX",
+          "buy_amount": 5467406,
+          "sell_amount": 1774823,
+          "net_buy_amount": 3692583
+        },
+        {
+          "rank": "4",
+          "country": "홍콩",
+          "isin": "KYG6875A1177",
+          "name": "EASYHOLD GROUP HOLDINGS LTD EASYHOLD GROUP HOLDINGS LTD PARI 996251416 KYG6875A1250",
+          "buy_amount": 3114615,
+          "sell_amount": 417312,
+          "net_buy_amount": 2697303
+        },
+        {
+          "rank": "5",
+          "country": "홍콩",
+          "isin": "KYG070341048",
+          "name": "BAIDU INC CL A",
+          "buy_amount": 1569197,
+          "sell_amount": 82458,
+          "net_buy_amount": 1486738
+        },
+        {
+          "rank": "6",
+          "country": "홍콩",
+          "isin": "CNE100007DH9",
+          "name": "02513",
+          "buy_amount": 1569767,
+          "sell_amount": 352575,
+          "net_buy_amount": 1217192
+        },
+        {
+          "rank": "7",
+          "country": "홍콩",
+          "isin": "CNE100007DD8",
+          "name": "06082",
+          "buy_amount": 1204980,
+          "sell_amount": 55091,
+          "net_buy_amount": 1149889
+        },
+        {
+          "rank": "8",
+          "country": "홍콩",
+          "isin": "KYG017191142",
+          "name": "ALIBABA GROUP HOLDING LTD",
+          "buy_amount": 2181733,
+          "sell_amount": 1141873,
+          "net_buy_amount": 1039859
+        },
+        {
+          "rank": "9",
+          "country": "홍콩",
+          "isin": "KYG9830T1067",
+          "name": "XIAOMI CORP",
+          "buy_amount": 3119897,
+          "sell_amount": 2113597,
+          "net_buy_amount": 1006300
+        },
+        {
+          "rank": "10",
+          "country": "홍콩",
+          "isin": "KYG8020E1199",
+          "name": "SEMICONDUCTOR MANUFACTURING INTL CORP",
+          "buy_amount": 1829973,
+          "sell_amount": 1139919,
+          "net_buy_amount": 690054
+        },
+        {
+          "rank": "11",
+          "country": "홍콩",
+          "isin": "HK0000761400",
+          "name": "PREMIA CHINA STAR50 ETF HKD",
+          "buy_amount": 1262739,
+          "sell_amount": 611940,
+          "net_buy_amount": 650800
+        },
+        {
+          "rank": "12",
+          "country": "홍콩",
+          "isin": "HK0000637832",
+          "name": "GLOBAL X CHINA SEMICONDUCTOR ETF (HKD)",
+          "buy_amount": 904934,
+          "sell_amount": 278559,
+          "net_buy_amount": 626375
+        },
+        {
+          "rank": "13",
+          "country": "홍콩",
+          "isin": "CNE100006WS8",
+          "name": "CATL ORD H",
+          "buy_amount": 800433,
+          "sell_amount": 345762,
+          "net_buy_amount": 454671
+        },
+        {
+          "rank": "14",
+          "country": "홍콩",
+          "isin": "HK0000057395",
+          "name": "ISHARES CORE CSI 300 ETF HKD",
+          "buy_amount": 299015,
+          "sell_amount": 0,
+          "net_buy_amount": 299015
+        },
+        {
+          "rank": "15",
+          "country": "홍콩",
+          "isin": "HK0000748381",
+          "name": "YESASIA HOLDINGS LTD",
+          "buy_amount": 386097,
+          "sell_amount": 131232,
+          "net_buy_amount": 254866
+        },
+        {
+          "rank": "16",
+          "country": "홍콩",
+          "isin": "KYG5140Y1162",
+          "name": "JINHAI MED TECH",
+          "buy_amount": 383607,
+          "sell_amount": 146092,
+          "net_buy_amount": 237515
+        },
+        {
+          "rank": "17",
+          "country": "홍콩",
+          "isin": "HK0000702735",
+          "name": "CSOP STAR 50 INDEX ETF",
+          "buy_amount": 247948,
+          "sell_amount": 23345,
+          "net_buy_amount": 224603
+        },
+        {
+          "rank": "18",
+          "country": "홍콩",
+          "isin": "SG1V07936171",
+          "name": "CHINA XLX FERTILISER LTD",
+          "buy_amount": 214043,
+          "sell_amount": 0,
+          "net_buy_amount": 214043
+        },
+        {
+          "rank": "19",
+          "country": "홍콩",
+          "isin": "CNE1000002Q2",
+          "name": "CHINA PETROLEUM AND CHEMICAL CORP-H",
+          "buy_amount": 190983,
+          "sell_amount": 3293,
+          "net_buy_amount": 187690
+        },
+        {
+          "rank": "20",
+          "country": "홍콩",
+          "isin": "BMG0R33J2028",
+          "name": "ALCO HOLDINGS LTD ALCO HOLDINGS LTD PARI 985628099 BMG0R33J1376",
+          "buy_amount": 176653,
+          "sell_amount": 14710,
+          "net_buy_amount": 161943
+        },
+        {
+          "rank": "21",
+          "country": "홍콩",
+          "isin": "CNE100007HC1",
+          "name": "DELTON",
+          "buy_amount": 153692,
+          "sell_amount": 0,
+          "net_buy_amount": 153692
+        },
+        {
+          "rank": "22",
+          "country": "홍콩",
+          "isin": "KYG525621408",
+          "name": "KINGBOARD HOLDINGS LTD",
+          "buy_amount": 150643,
+          "sell_amount": 13708,
+          "net_buy_amount": 136935
+        },
+        {
+          "rank": "23",
+          "country": "홍콩",
+          "isin": "HK0000218211",
+          "name": "HUA HONG SEMICONDUCTOR LTD",
+          "buy_amount": 306076,
+          "sell_amount": 173423,
+          "net_buy_amount": 132653
+        },
+        {
+          "rank": "24",
+          "country": "홍콩",
+          "isin": "KYG6181S1093",
+          "name": "00100",
+          "buy_amount": 576809,
+          "sell_amount": 460391,
+          "net_buy_amount": 116419
+        },
+        {
+          "rank": "25",
+          "country": "홍콩",
+          "isin": "CNE100006QG5",
+          "name": "INNOSCIENCE",
+          "buy_amount": 106411,
+          "sell_amount": 3308,
+          "net_buy_amount": 103103
+        },
+        {
+          "rank": "26",
+          "country": "홍콩",
+          "isin": "HK0001149431",
+          "name": "Global X China C",
+          "buy_amount": 99716,
+          "sell_amount": 8360,
+          "net_buy_amount": 91356
+        },
+        {
+          "rank": "27",
+          "country": "홍콩",
+          "isin": "HK0001121349",
+          "name": "XL2CSOPSMSN",
+          "buy_amount": 939100,
+          "sell_amount": 851320,
+          "net_buy_amount": 87780
+        },
+        {
+          "rank": "28",
+          "country": "홍콩",
+          "isin": "HK0000672946",
+          "name": "CSOP HANG SENG TECH INDEX DAILY 2X LEVERAGED ETF",
+          "buy_amount": 64601,
+          "sell_amount": 3063,
+          "net_buy_amount": 61538
+        },
+        {
+          "rank": "29",
+          "country": "홍콩",
+          "isin": "CNE100006CQ4",
+          "name": "Ubtech Robotics Ord Shs H",
+          "buy_amount": 333476,
+          "sell_amount": 272447,
+          "net_buy_amount": 61028
+        },
+        {
+          "rank": "30",
+          "country": "홍콩",
+          "isin": "HK0000637857",
+          "name": "GLOBAL X CHINA ROBOTICS AND AI ETF (HKD)",
+          "buy_amount": 103683,
+          "sell_amount": 50823,
+          "net_buy_amount": 52860
+        },
+        {
+          "rank": "31",
+          "country": "홍콩",
+          "isin": "HK0000049939",
+          "name": "CHINA UNICOM HK LTD",
+          "buy_amount": 51114,
+          "sell_amount": 0,
+          "net_buy_amount": 51114
+        },
+        {
+          "rank": "32",
+          "country": "홍콩",
+          "isin": "KYG368441195",
+          "name": "FUFENG GROUP LTD",
+          "buy_amount": 50391,
+          "sell_amount": 0,
+          "net_buy_amount": 50391
+        },
+        {
+          "rank": "33",
+          "country": "홍콩",
+          "isin": "KYG1R24P1085",
+          "name": "Bloks Group",
+          "buy_amount": 47334,
+          "sell_amount": 0,
+          "net_buy_amount": 47334
+        },
+        {
+          "rank": "34",
+          "country": "홍콩",
+          "isin": "KYG9302L1288",
+          "name": "UNIVERSAL HEALTH INTERNATIO UNIVERSAL HEALTH INTERNATION PARI 979243786 KYG9302L1361",
+          "buy_amount": 45084,
+          "sell_amount": 560,
+          "net_buy_amount": 44524
+        },
+        {
+          "rank": "35",
+          "country": "홍콩",
+          "isin": "CNE100000304",
+          "name": "DONGFANG ELECTRIC CORP LTD-H",
+          "buy_amount": 44524,
+          "sell_amount": 5985,
+          "net_buy_amount": 38539
+        },
+        {
+          "rank": "36",
+          "country": "홍콩",
+          "isin": "CNE100001T80",
+          "name": "CGN POWER CO LTD-H",
+          "buy_amount": 38293,
+          "sell_amount": 0,
+          "net_buy_amount": 38293
+        },
+        {
+          "rank": "37",
+          "country": "홍콩",
+          "isin": "KYG9066F1019",
+          "name": "TRIP.COM GROUP LTD",
+          "buy_amount": 53266,
+          "sell_amount": 16199,
+          "net_buy_amount": 37067
+        },
+        {
+          "rank": "38",
+          "country": "홍콩",
+          "isin": "CNE100001YQ9",
+          "name": "HUATAI SECURITIES CO LTD-H",
+          "buy_amount": 37053,
+          "sell_amount": 0,
+          "net_buy_amount": 37053
+        },
+        {
+          "rank": "39",
+          "country": "홍콩",
+          "isin": "KYG211771038",
+          "name": "CHINA SILVER GROUP LTD",
+          "buy_amount": 34487,
+          "sell_amount": 0,
+          "net_buy_amount": 34487
+        },
+        {
+          "rank": "40",
+          "country": "홍콩",
+          "isin": "KYG5074A1004",
+          "name": "JD HEALTH INTERNATIONAL INC",
+          "buy_amount": 37567,
+          "sell_amount": 4494,
+          "net_buy_amount": 33073
+        },
+        {
+          "rank": "41",
+          "country": "홍콩",
+          "isin": "KYG6525F1028",
+          "name": "NIO INC CL A",
+          "buy_amount": 99671,
+          "sell_amount": 67395,
+          "net_buy_amount": 32276
+        },
+        {
+          "rank": "42",
+          "country": "홍콩",
+          "isin": "KYG525681477",
+          "name": "KINGDEE INTL SOFTWARE GROUP CO LTD",
+          "buy_amount": 40393,
+          "sell_amount": 10001,
+          "net_buy_amount": 30392
+        },
+        {
+          "rank": "43",
+          "country": "홍콩",
+          "isin": "KYG3774X1088",
+          "name": "GCL TECHNOLOGY HOLDINGS LTD",
+          "buy_amount": 35304,
+          "sell_amount": 4936,
+          "net_buy_amount": 30368
+        },
+        {
+          "rank": "44",
+          "country": "홍콩",
+          "isin": "KYG7611S1075",
+          "name": "ROBOSENSE",
+          "buy_amount": 27648,
+          "sell_amount": 605,
+          "net_buy_amount": 27044
+        },
+        {
+          "rank": "45",
+          "country": "홍콩",
+          "isin": "KYG4790P1037",
+          "name": "03696",
+          "buy_amount": 134953,
+          "sell_amount": 108259,
+          "net_buy_amount": 26694
+        },
+        {
+          "rank": "46",
+          "country": "홍콩",
+          "isin": "CNE100007RM9",
+          "name": "CCTC",
+          "buy_amount": 26677,
+          "sell_amount": 0,
+          "net_buy_amount": 26677
+        },
+        {
+          "rank": "47",
+          "country": "홍콩",
+          "isin": "CNE100000X69",
+          "name": "CHINA DATANG CORP RENEWABLE POWER CO LTD-H",
+          "buy_amount": 23912,
+          "sell_amount": 0,
+          "net_buy_amount": 23912
+        },
+        {
+          "rank": "48",
+          "country": "홍콩",
+          "isin": "CNE100007DV0",
+          "name": "ILUVATAR COREX",
+          "buy_amount": 52648,
+          "sell_amount": 29231,
+          "net_buy_amount": 23417
+        },
+        {
+          "rank": "49",
+          "country": "홍콩",
+          "isin": "KYG891951041",
+          "name": "TONG KEE HOLDING LTD",
+          "buy_amount": 23007,
+          "sell_amount": 0,
+          "net_buy_amount": 23007
+        },
+        {
+          "rank": "50",
+          "country": "홍콩",
+          "isin": "CNE100004YZ4",
+          "name": "CTG DUTY-FREE",
+          "buy_amount": 22173,
+          "sell_amount": 0,
+          "net_buy_amount": 22173
+        }
+      ],
+      "중국": [
+        {
+          "rank": "1",
+          "country": "중국",
+          "isin": "US1234567899",
+          "name": "Dummy ISIN (Not Available)",
+          "buy_amount": 32456913,
+          "sell_amount": 1470664,
+          "net_buy_amount": 30986249
+        },
+        {
+          "rank": "2",
+          "country": "중국",
+          "isin": "CNE000001F05",
+          "name": "JCET GROUP CO LTD-A",
+          "buy_amount": 1972780,
+          "sell_amount": 191380,
+          "net_buy_amount": 1781400
+        },
+        {
+          "rank": "3",
+          "country": "중국",
+          "isin": "CNE1000000D4",
+          "name": "WEICHAI POWER CO LTD-A",
+          "buy_amount": 1765811,
+          "sell_amount": 7093,
+          "net_buy_amount": 1758718
+        },
+        {
+          "rank": "4",
+          "country": "중국",
+          "isin": "CNE100005TH9",
+          "name": "HARVEST FUND MANAGEMENT SSE STAR CHIP IDX ETF CNY",
+          "buy_amount": 1068105,
+          "sell_amount": 28555,
+          "net_buy_amount": 1039550
+        },
+        {
+          "rank": "5",
+          "country": "중국",
+          "isin": "CNE100004PJ6",
+          "name": "Guizhou Aviation Technical Development",
+          "buy_amount": 845054,
+          "sell_amount": 0,
+          "net_buy_amount": 845054
+        },
+        {
+          "rank": "6",
+          "country": "중국",
+          "isin": "CNE100003MM9",
+          "name": "ADVANCED MICRO-FABRICATION EQUIPMENT INC-A",
+          "buy_amount": 707995,
+          "sell_amount": 0,
+          "net_buy_amount": 707995
+        },
+        {
+          "rank": "7",
+          "country": "중국",
+          "isin": "CNE100000K31",
+          "name": "KEHUA DATA CO LTD-A",
+          "buy_amount": 752883,
+          "sell_amount": 55419,
+          "net_buy_amount": 697464
+        },
+        {
+          "rank": "8",
+          "country": "중국",
+          "isin": "CNE100000ML7",
+          "name": "NAURA TECHNOLOGY GROUP CO LTD-A",
+          "buy_amount": 880985,
+          "sell_amount": 226610,
+          "net_buy_amount": 654376
+        },
+        {
+          "rank": "9",
+          "country": "중국",
+          "isin": "CNE100003662",
+          "name": "CONTEMPORARY AMPEREX TECHNOLOGY CO LTD-A",
+          "buy_amount": 576136,
+          "sell_amount": 0,
+          "net_buy_amount": 576136
+        },
+        {
+          "rank": "10",
+          "country": "중국",
+          "isin": "CNE0000012M2",
+          "name": "INSPUR ELECTRONIC INFORMATION INDUSTRY CO LTD-A",
+          "buy_amount": 778612,
+          "sell_amount": 253075,
+          "net_buy_amount": 525537
+        },
+        {
+          "rank": "11",
+          "country": "중국",
+          "isin": "CNE100001Y42",
+          "name": "CHAOZHOU THREE-CIRCLE GROUP CO LTD-A",
+          "buy_amount": 435304,
+          "sell_amount": 0,
+          "net_buy_amount": 435304
+        },
+        {
+          "rank": "12",
+          "country": "중국",
+          "isin": "CNE000000YM1",
+          "name": "CHINA JUSHI CO LTD-A",
+          "buy_amount": 371544,
+          "sell_amount": 4975,
+          "net_buy_amount": 366569
+        },
+        {
+          "rank": "13",
+          "country": "중국",
+          "isin": "CNE100000TP3",
+          "name": "LUXSHARE PRECISION INDUSTRY CO LTD-A",
+          "buy_amount": 322313,
+          "sell_amount": 51419,
+          "net_buy_amount": 270894
+        },
+        {
+          "rank": "14",
+          "country": "중국",
+          "isin": "CNE100006400",
+          "name": "GUOTAI ASSET MGT",
+          "buy_amount": 238787,
+          "sell_amount": 44,
+          "net_buy_amount": 238743
+        },
+        {
+          "rank": "15",
+          "country": "중국",
+          "isin": "CNE100004WL8",
+          "name": "CHINA ASSET MANAGEMENT CO ROBOT ETF",
+          "buy_amount": 216383,
+          "sell_amount": 2524,
+          "net_buy_amount": 213859
+        },
+        {
+          "rank": "16",
+          "country": "중국",
+          "isin": "CNE100000PG0",
+          "name": "JIANGSU YOKE TECHNOLOGY CO LTD-A",
+          "buy_amount": 206424,
+          "sell_amount": 2223,
+          "net_buy_amount": 204201
+        },
+        {
+          "rank": "17",
+          "country": "중국",
+          "isin": "CNE1000030S9",
+          "name": "GIGA DEVICE SEMICONDUCTOR BEIJING INC-A",
+          "buy_amount": 274623,
+          "sell_amount": 76941,
+          "net_buy_amount": 197682
+        },
+        {
+          "rank": "18",
+          "country": "중국",
+          "isin": "CNE100004603",
+          "name": "CHINA ASSET MGT CO",
+          "buy_amount": 216046,
+          "sell_amount": 30966,
+          "net_buy_amount": 185079
+        },
+        {
+          "rank": "19",
+          "country": "중국",
+          "isin": "CNE1000019C6",
+          "name": "GOLDENMAX INTERNATIONAL TECHNOLOGY LTD-A",
+          "buy_amount": 181996,
+          "sell_amount": 0,
+          "net_buy_amount": 181996
+        },
+        {
+          "rank": "20",
+          "country": "중국",
+          "isin": "CNE100001X35",
+          "name": "ESTUN AUTOMATION CO LTD-A",
+          "buy_amount": 169227,
+          "sell_amount": 7125,
+          "net_buy_amount": 162102
+        },
+        {
+          "rank": "21",
+          "country": "중국",
+          "isin": "CNE000001GL8",
+          "name": "TCL TECHNOLOGY GROUP CORP-A",
+          "buy_amount": 142715,
+          "sell_amount": 669,
+          "net_buy_amount": 142046
+        },
+        {
+          "rank": "22",
+          "country": "중국",
+          "isin": "CNE000001FQ9",
+          "name": "HENGTONG OPTICELECTRIC CO LTD-A",
+          "buy_amount": 226710,
+          "sell_amount": 95097,
+          "net_buy_amount": 131613
+        },
+        {
+          "rank": "23",
+          "country": "중국",
+          "isin": "CNE100003373",
+          "name": "SHENNAN CIRCUITS CO LTD-A",
+          "buy_amount": 430624,
+          "sell_amount": 301486,
+          "net_buy_amount": 129138
+        },
+        {
+          "rank": "24",
+          "country": "중국",
+          "isin": "CNE100001QQ5",
+          "name": "MIDEA GROUP CO LTD-A",
+          "buy_amount": 179748,
+          "sell_amount": 61721,
+          "net_buy_amount": 118027
+        },
+        {
+          "rank": "25",
+          "country": "중국",
+          "isin": "CNE1000036B2",
+          "name": "YANGTZE OPTICAL FIBRE AND CABLE JOINT STOCK LTD-A",
+          "buy_amount": 351162,
+          "sell_amount": 239470,
+          "net_buy_amount": 111693
+        },
+        {
+          "rank": "26",
+          "country": "중국",
+          "isin": "CNE100000KC0",
+          "name": "CHINA NATIONAL CHEMICAL ENGINEERING CO LTD-A",
+          "buy_amount": 110528,
+          "sell_amount": 0,
+          "net_buy_amount": 110528
+        },
+        {
+          "rank": "27",
+          "country": "중국",
+          "isin": "CNE1000018V8",
+          "name": "GREAT WALL MOTOR CO LTD-A",
+          "buy_amount": 110550,
+          "sell_amount": 4704,
+          "net_buy_amount": 105845
+        },
+        {
+          "rank": "28",
+          "country": "중국",
+          "isin": "CNE100000F87",
+          "name": "ACCELINK TECHNOLOGIES CO LTD-A",
+          "buy_amount": 106403,
+          "sell_amount": 40746,
+          "net_buy_amount": 65657
+        },
+        {
+          "rank": "29",
+          "country": "중국",
+          "isin": "CNE000001FR7",
+          "name": "SHANDONG GOLD MINING CO LTD-A",
+          "buy_amount": 68383,
+          "sell_amount": 4599,
+          "net_buy_amount": 63784
+        },
+        {
+          "rank": "30",
+          "country": "중국",
+          "isin": "CNE1000000T0",
+          "name": "ALUMINUM CORP OF CHINA LTD-A",
+          "buy_amount": 63941,
+          "sell_amount": 4702,
+          "net_buy_amount": 59239
+        },
+        {
+          "rank": "31",
+          "country": "중국",
+          "isin": "CNE100005GP9",
+          "name": "TECHWINSEMI",
+          "buy_amount": 55261,
+          "sell_amount": 0,
+          "net_buy_amount": 55261
+        },
+        {
+          "rank": "32",
+          "country": "중국",
+          "isin": "CNE100002XN6",
+          "name": "CHINA KINGS RESOURCES GROUP CO LTD-A",
+          "buy_amount": 43674,
+          "sell_amount": 0,
+          "net_buy_amount": 43674
+        },
+        {
+          "rank": "33",
+          "country": "중국",
+          "isin": "CNE0000006M4",
+          "name": "CHINA TUNGSTEN AND HIGHTECH MATERIALS CO LTD-A",
+          "buy_amount": 40296,
+          "sell_amount": 0,
+          "net_buy_amount": 40296
+        },
+        {
+          "rank": "34",
+          "country": "중국",
+          "isin": "CNE000001KM8",
+          "name": "SIEYUAN ELECTRIC CO LTD-A",
+          "buy_amount": 39921,
+          "sell_amount": 0,
+          "net_buy_amount": 39921
+        },
+        {
+          "rank": "35",
+          "country": "중국",
+          "isin": "CNE1000009T1",
+          "name": "CHINA RAILWAY CONSTRUCTION CORP LTD-A",
+          "buy_amount": 37116,
+          "sell_amount": 0,
+          "net_buy_amount": 37116
+        },
+        {
+          "rank": "36",
+          "country": "중국",
+          "isin": "CNE0000016W2",
+          "name": "TDG HOLDINGS CO LTD-A",
+          "buy_amount": 35826,
+          "sell_amount": 0,
+          "net_buy_amount": 35826
+        },
+        {
+          "rank": "37",
+          "country": "중국",
+          "isin": "CNE000000M15",
+          "name": "HUAYU AUTOMOTIVE SYSTEMS CO LTD-A",
+          "buy_amount": 35926,
+          "sell_amount": 1410,
+          "net_buy_amount": 34516
+        },
+        {
+          "rank": "38",
+          "country": "중국",
+          "isin": "CNE100003X09",
+          "name": "CHINA ASSET MANAGEMENT CO HX CSI5G COMMUNICATIONS",
+          "buy_amount": 33263,
+          "sell_amount": 0,
+          "net_buy_amount": 33263
+        },
+        {
+          "rank": "39",
+          "country": "중국",
+          "isin": "CNE100000SP5",
+          "name": "WUS PRINTED CIRCUIT (KUNSHAN) CO LTD-A",
+          "buy_amount": 293495,
+          "sell_amount": 262547,
+          "net_buy_amount": 30948
+        },
+        {
+          "rank": "40",
+          "country": "중국",
+          "isin": "CNE0000016J9",
+          "name": "WANHUA CHEMICAL GROUP CO LTD-A",
+          "buy_amount": 58189,
+          "sell_amount": 27755,
+          "net_buy_amount": 30434
+        },
+        {
+          "rank": "41",
+          "country": "중국",
+          "isin": "CNE000000TK5",
+          "name": "ZTE CORP-A",
+          "buy_amount": 30086,
+          "sell_amount": 0,
+          "net_buy_amount": 30086
+        },
+        {
+          "rank": "42",
+          "country": "중국",
+          "isin": "CNE100000QD5",
+          "name": "SHENZHEN FASTPRINT CIRCUIT TECH CO LTD-A",
+          "buy_amount": 29679,
+          "sell_amount": 0,
+          "net_buy_amount": 29679
+        },
+        {
+          "rank": "43",
+          "country": "중국",
+          "isin": "CNE000001P37",
+          "name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA LTD-A",
+          "buy_amount": 35282,
+          "sell_amount": 8345,
+          "net_buy_amount": 26937
+        },
+        {
+          "rank": "44",
+          "country": "중국",
+          "isin": "CNE000000WQ6",
+          "name": "ZHEJIANG JUHUA CO LTD-A",
+          "buy_amount": 26468,
+          "sell_amount": 0,
+          "net_buy_amount": 26468
+        },
+        {
+          "rank": "45",
+          "country": "중국",
+          "isin": "CNE100003XH6",
+          "name": "GUOTAI ASSET MANAGEMENT CO GUOTAI CSI A-",
+          "buy_amount": 26806,
+          "sell_amount": 796,
+          "net_buy_amount": 26010
+        },
+        {
+          "rank": "46",
+          "country": "중국",
+          "isin": "CNE100001CY9",
+          "name": "ZHONGJI INNOLIGHT CO LTD-A",
+          "buy_amount": 25415,
+          "sell_amount": 0,
+          "net_buy_amount": 25415
+        },
+        {
+          "rank": "47",
+          "country": "중국",
+          "isin": "CNE100000866",
+          "name": "CHINA RAILWAY GROUP LTD-A",
+          "buy_amount": 23252,
+          "sell_amount": 0,
+          "net_buy_amount": 23252
+        },
+        {
+          "rank": "48",
+          "country": "중국",
+          "isin": "CNE000001CW4",
+          "name": "JIANGSU ZHONGTIAN TECHNOLOGY CO LTD-A",
+          "buy_amount": 47861,
+          "sell_amount": 25634,
+          "net_buy_amount": 22227
+        },
+        {
+          "rank": "49",
+          "country": "중국",
+          "isin": "CNE100000N61",
+          "name": "BEIJING DABEINONG TECHNOLOGY GROUP CO LTD-A",
+          "buy_amount": 22088,
+          "sell_amount": 0,
+          "net_buy_amount": 22088
+        },
+        {
+          "rank": "50",
+          "country": "중국",
+          "isin": "CNE100002W27",
+          "name": "JOINN LABORATORIES CHINA CO LTD-A",
+          "buy_amount": 21924,
+          "sell_amount": 0,
+          "net_buy_amount": 21924
+        }
+      ],
+      "일본": [
+        {
+          "rank": "1",
+          "country": "일본",
+          "isin": "JP3571400005",
+          "name": "TOKYO ELECTRON LTD",
+          "buy_amount": 4664242,
+          "sell_amount": 821809,
+          "net_buy_amount": 3842433
+        },
+        {
+          "rank": "2",
+          "country": "일본",
+          "isin": "JP3914400001",
+          "name": "MURATA MANUFACTURING CO LTD",
+          "buy_amount": 6009731,
+          "sell_amount": 2798246,
+          "net_buy_amount": 3211484
+        },
+        {
+          "rank": "3",
+          "country": "일본",
+          "isin": "JP3684400009",
+          "name": "NITTO BOSEKI CO LTD",
+          "buy_amount": 3900323,
+          "sell_amount": 2204434,
+          "net_buy_amount": 1695889
+        },
+        {
+          "rank": "4",
+          "country": "일본",
+          "isin": "JP3126000003",
+          "name": "ARISAWA MFG CO LTD",
+          "buy_amount": 1386009,
+          "sell_amount": 0,
+          "net_buy_amount": 1386009
+        },
+        {
+          "rank": "5",
+          "country": "일본",
+          "isin": "JP3630550006",
+          "name": "TOMY CO LTD",
+          "buy_amount": 1182096,
+          "sell_amount": 2117,
+          "net_buy_amount": 1179979
+        },
+        {
+          "rank": "6",
+          "country": "일본",
+          "isin": "JP3756600007",
+          "name": "NINTENDO CO LTD",
+          "buy_amount": 2507441,
+          "sell_amount": 1425021,
+          "net_buy_amount": 1082420
+        },
+        {
+          "rank": "7",
+          "country": "일본",
+          "isin": "JP3379550001",
+          "name": "NIPPON MINING HOLDINGS,INC.",
+          "buy_amount": 1308360,
+          "sell_amount": 242137,
+          "net_buy_amount": 1066223
+        },
+        {
+          "rank": "8",
+          "country": "일본",
+          "isin": "JP3049360005",
+          "name": "GLOBAL X JAPAN SEMICONDUCTOR ETF",
+          "buy_amount": 1295552,
+          "sell_amount": 422600,
+          "net_buy_amount": 872952
+        },
+        {
+          "rank": "9",
+          "country": "일본",
+          "isin": "JP3765150002",
+          "name": "HARMONIC DRIVE SYSTEMS INC",
+          "buy_amount": 1653324,
+          "sell_amount": 802302,
+          "net_buy_amount": 851021
+        },
+        {
+          "rank": "10",
+          "country": "일본",
+          "isin": "JP3811000003",
+          "name": "FUJIKURA LTD",
+          "buy_amount": 3240242,
+          "sell_amount": 2501833,
+          "net_buy_amount": 738409
+        },
+        {
+          "rank": "11",
+          "country": "일본",
+          "isin": "JP3048980001",
+          "name": "MAXIS US EQUITY SP500 ETF",
+          "buy_amount": 741787,
+          "sell_amount": 33389,
+          "net_buy_amount": 708398
+        },
+        {
+          "rank": "12",
+          "country": "일본",
+          "isin": "JP3633400001",
+          "name": "TOYOTA MOTOR CORP",
+          "buy_amount": 1149105,
+          "sell_amount": 447622,
+          "net_buy_amount": 701483
+        },
+        {
+          "rank": "13",
+          "country": "일본",
+          "isin": "JP3891600003",
+          "name": "MITSUI E AND S CO LTD",
+          "buy_amount": 778703,
+          "sell_amount": 175864,
+          "net_buy_amount": 602839
+        },
+        {
+          "rank": "14",
+          "country": "일본",
+          "isin": "JP3164720009",
+          "name": "RENESAS ELECTRONICS CORP",
+          "buy_amount": 812949,
+          "sell_amount": 278087,
+          "net_buy_amount": 534862
+        },
+        {
+          "rank": "15",
+          "country": "일본",
+          "isin": "JP3629000005",
+          "name": "TOPPAN INC",
+          "buy_amount": 451380,
+          "sell_amount": 22787,
+          "net_buy_amount": 428593
+        },
+        {
+          "rank": "16",
+          "country": "일본",
+          "isin": "JP3452000007",
+          "name": "TAIYO YUDEN CO LTD",
+          "buy_amount": 601412,
+          "sell_amount": 183765,
+          "net_buy_amount": 417647
+        },
+        {
+          "rank": "17",
+          "country": "일본",
+          "isin": "JP3435000009",
+          "name": "SONY GROUP CORP",
+          "buy_amount": 837886,
+          "sell_amount": 437466,
+          "net_buy_amount": 400420
+        },
+        {
+          "rank": "18",
+          "country": "일본",
+          "isin": "JP3407400005",
+          "name": "SUMITOMO ELECTRIC INDUSTRIES LTD",
+          "buy_amount": 666402,
+          "sell_amount": 295086,
+          "net_buy_amount": 371316
+        },
+        {
+          "rank": "19",
+          "country": "일본",
+          "isin": "JP3802400006",
+          "name": "FANUC CORP",
+          "buy_amount": 1180610,
+          "sell_amount": 811069,
+          "net_buy_amount": 369541
+        },
+        {
+          "rank": "20",
+          "country": "일본",
+          "isin": "JP3050310006",
+          "name": "GLOBAL X ULTRA SHORT-TERM T-BILL ETF",
+          "buy_amount": 407235,
+          "sell_amount": 39161,
+          "net_buy_amount": 368074
+        },
+        {
+          "rank": "21",
+          "country": "일본",
+          "isin": "JP3778630008",
+          "name": "BANDAI NAMCO HOLDINGS INC",
+          "buy_amount": 673222,
+          "sell_amount": 332001,
+          "net_buy_amount": 341221
+        },
+        {
+          "rank": "22",
+          "country": "일본",
+          "isin": "JP3877600001",
+          "name": "MARUBENI CORP",
+          "buy_amount": 620174,
+          "sell_amount": 293757,
+          "net_buy_amount": 326417
+        },
+        {
+          "rank": "23",
+          "country": "일본",
+          "isin": "JP3371200001",
+          "name": "SHIN-ETSU CHEMICAL CO LTD",
+          "buy_amount": 680286,
+          "sell_amount": 358762,
+          "net_buy_amount": 321524
+        },
+        {
+          "rank": "24",
+          "country": "일본",
+          "isin": "JP3119600009",
+          "name": "AJINOMOTO CO INC",
+          "buy_amount": 519815,
+          "sell_amount": 204494,
+          "net_buy_amount": 315321
+        },
+        {
+          "rank": "25",
+          "country": "일본",
+          "isin": "JP3118000003",
+          "name": "ASICS CORP",
+          "buy_amount": 364813,
+          "sell_amount": 56359,
+          "net_buy_amount": 308454
+        },
+        {
+          "rank": "26",
+          "country": "일본",
+          "isin": "JP3293330001",
+          "name": "KOKUSAI ELECTRIC",
+          "buy_amount": 335370,
+          "sell_amount": 42193,
+          "net_buy_amount": 293177
+        },
+        {
+          "rank": "27",
+          "country": "일본",
+          "isin": "JP3360250009",
+          "name": "SHO-BOND HOLDINGS CO LTD",
+          "buy_amount": 276124,
+          "sell_amount": 0,
+          "net_buy_amount": 276124
+        },
+        {
+          "rank": "28",
+          "country": "일본",
+          "isin": "JP3050420003",
+          "name": "200A",
+          "buy_amount": 575741,
+          "sell_amount": 305325,
+          "net_buy_amount": 270416
+        },
+        {
+          "rank": "29",
+          "country": "일본",
+          "isin": "JP3952870008",
+          "name": "DEMAE-CAN CO LTD",
+          "buy_amount": 265643,
+          "sell_amount": 5169,
+          "net_buy_amount": 260474
+        },
+        {
+          "rank": "30",
+          "country": "일본",
+          "isin": "JP3827200001",
+          "name": "FURUKAWA ELECTRIC CO LTD",
+          "buy_amount": 660703,
+          "sell_amount": 422102,
+          "net_buy_amount": 238602
+        },
+        {
+          "rank": "31",
+          "country": "일본",
+          "isin": "JP3902900004",
+          "name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+          "buy_amount": 1155613,
+          "sell_amount": 920192,
+          "net_buy_amount": 235421
+        },
+        {
+          "rank": "32",
+          "country": "일본",
+          "isin": "JP3548600000",
+          "name": "DISCO CORP",
+          "buy_amount": 615769,
+          "sell_amount": 386937,
+          "net_buy_amount": 228832
+        },
+        {
+          "rank": "33",
+          "country": "일본",
+          "isin": "JP3049040003",
+          "name": "ISHARES SP 500 JPY HEDGED ETF",
+          "buy_amount": 403522,
+          "sell_amount": 197286,
+          "net_buy_amount": 206236
+        },
+        {
+          "rank": "34",
+          "country": "일본",
+          "isin": "JP3758190007",
+          "name": "NEXON CO LTD",
+          "buy_amount": 466051,
+          "sell_amount": 273098,
+          "net_buy_amount": 192952
+        },
+        {
+          "rank": "35",
+          "country": "일본",
+          "isin": "JP3475000000",
+          "name": "DKS CO LTD",
+          "buy_amount": 200234,
+          "sell_amount": 8026,
+          "net_buy_amount": 192208
+        },
+        {
+          "rank": "36",
+          "country": "일본",
+          "isin": "JP3027680002",
+          "name": "JAPAN REAL ESTATE INVESTMENT CORP",
+          "buy_amount": 189172,
+          "sell_amount": 2358,
+          "net_buy_amount": 186814
+        },
+        {
+          "rank": "37",
+          "country": "일본",
+          "isin": "JP3027650005",
+          "name": "NEXT FUNDS NIKKEI 225 ETF",
+          "buy_amount": 773082,
+          "sell_amount": 603219,
+          "net_buy_amount": 169864
+        },
+        {
+          "rank": "38",
+          "country": "일본",
+          "isin": "JP3027710007",
+          "name": "ISHARES CORE NIKKEI 225 ETF",
+          "buy_amount": 318421,
+          "sell_amount": 157752,
+          "net_buy_amount": 160669
+        },
+        {
+          "rank": "39",
+          "country": "일본",
+          "isin": "JP3475350009",
+          "name": "DAIICHI SANKYO CO LTD",
+          "buy_amount": 373320,
+          "sell_amount": 212929,
+          "net_buy_amount": 160391
+        },
+        {
+          "rank": "40",
+          "country": "일본",
+          "isin": "JP3048390003",
+          "name": "NEXT FUNDS NIKKEI 225 HIGH DIVIDEND YIELD STOCK 50 INDEX ETF",
+          "buy_amount": 374085,
+          "sell_amount": 221914,
+          "net_buy_amount": 152170
+        },
+        {
+          "rank": "41",
+          "country": "일본",
+          "isin": "JP3409800004",
+          "name": "SUMITOMO FORESTRY CO LTD",
+          "buy_amount": 144651,
+          "sell_amount": 0,
+          "net_buy_amount": 144651
+        },
+        {
+          "rank": "42",
+          "country": "일본",
+          "isin": "JP3148800000",
+          "name": "IBIDEN CO LTD",
+          "buy_amount": 1071140,
+          "sell_amount": 927191,
+          "net_buy_amount": 143949
+        },
+        {
+          "rank": "43",
+          "country": "일본",
+          "isin": "JP3047240001",
+          "name": "NEXT FUNDS NASDAQ 100(R) (UNHEDGED) ETF",
+          "buy_amount": 145550,
+          "sell_amount": 3345,
+          "net_buy_amount": 142205
+        },
+        {
+          "rank": "44",
+          "country": "일본",
+          "isin": "JP3571800006",
+          "name": "TOKYO OHKA KOGYO CO LTD",
+          "buy_amount": 233507,
+          "sell_amount": 92649,
+          "net_buy_amount": 140858
+        },
+        {
+          "rank": "45",
+          "country": "일본",
+          "isin": "JP3893600001",
+          "name": "MITSUI AND CO LTD",
+          "buy_amount": 406728,
+          "sell_amount": 270509,
+          "net_buy_amount": 136218
+        },
+        {
+          "rank": "46",
+          "country": "일본",
+          "isin": "JP3960000002",
+          "name": "YONEX CO LTD",
+          "buy_amount": 150029,
+          "sell_amount": 15968,
+          "net_buy_amount": 134061
+        },
+        {
+          "rank": "47",
+          "country": "일본",
+          "isin": "JP3368000000",
+          "name": "RESONAC HLD CORP ORD",
+          "buy_amount": 238880,
+          "sell_amount": 113244,
+          "net_buy_amount": 125637
+        },
+        {
+          "rank": "48",
+          "country": "일본",
+          "isin": "JP3551500006",
+          "name": "DENSO CORP",
+          "buy_amount": 176862,
+          "sell_amount": 51898,
+          "net_buy_amount": 124964
+        },
+        {
+          "rank": "49",
+          "country": "일본",
+          "isin": "JP3048540003",
+          "name": "ISHARES CORE 7-10 YEAR US TREASURY BOND ETF",
+          "buy_amount": 118912,
+          "sell_amount": 0,
+          "net_buy_amount": 118912
+        },
+        {
+          "rank": "50",
+          "country": "일본",
+          "isin": "JP3027630007",
+          "name": "NEXT FUNDS TOPIX ETF",
+          "buy_amount": 245763,
+          "sell_amount": 128275,
+          "net_buy_amount": 117488
+        }
+      ],
+      "베트남": [
+        {
+          "rank": "1",
+          "country": "베트남",
+          "isin": "VN000000CTG7",
+          "name": "VIETNAM JS COMMERCIAL BANK FOR INDUSTRY AND TRADE",
+          "buy_amount": 24211,
+          "sell_amount": 0,
+          "net_buy_amount": 24211
+        },
+        {
+          "rank": "2",
+          "country": "베트남",
+          "isin": "VN000000PNJ6",
+          "name": "PHU NHUAN JEWELRY JSC",
+          "buy_amount": 23320,
+          "sell_amount": 4031,
+          "net_buy_amount": 19288
+        },
+        {
+          "rank": "3",
+          "country": "베트남",
+          "isin": "VN000000FPT1",
+          "name": "FPT CORP",
+          "buy_amount": 22718,
+          "sell_amount": 5312,
+          "net_buy_amount": 17406
+        },
+        {
+          "rank": "4",
+          "country": "베트남",
+          "isin": "VN000000VNM8",
+          "name": "VIETNAM DAIRY PRODUCTS JSC",
+          "buy_amount": 21920,
+          "sell_amount": 5748,
+          "net_buy_amount": 16172
+        },
+        {
+          "rank": "5",
+          "country": "베트남",
+          "isin": "VN000000VIX5",
+          "name": "VIX SECURITIES JSC",
+          "buy_amount": 13306,
+          "sell_amount": 0,
+          "net_buy_amount": 13306
+        },
+        {
+          "rank": "6",
+          "country": "베트남",
+          "isin": "VN000000SCS4",
+          "name": "SAIGON CARGO SERVICE CORP",
+          "buy_amount": 12312,
+          "sell_amount": 0,
+          "net_buy_amount": 12312
+        },
+        {
+          "rank": "7",
+          "country": "베트남",
+          "isin": "VN000000MBB5",
+          "name": "MILITARY COMMERCIAL JS BANK",
+          "buy_amount": 10805,
+          "sell_amount": 0,
+          "net_buy_amount": 10805
+        },
+        {
+          "rank": "8",
+          "country": "베트남",
+          "isin": "VN000000VCB4",
+          "name": "JS COMMERCIAL BANK FOR FOREIGN TRADE OF VIETNAM",
+          "buy_amount": 28559,
+          "sell_amount": 20223,
+          "net_buy_amount": 8336
+        },
+        {
+          "rank": "9",
+          "country": "베트남",
+          "isin": "VN000000DHG0",
+          "name": "DHG PHARMACEUTICAL JSC",
+          "buy_amount": 4690,
+          "sell_amount": 0,
+          "net_buy_amount": 4690
+        },
+        {
+          "rank": "10",
+          "country": "베트남",
+          "isin": "VN000000CMX7",
+          "name": "CAMIMEX GROUP JSC",
+          "buy_amount": 4243,
+          "sell_amount": 0,
+          "net_buy_amount": 4243
+        },
+        {
+          "rank": "11",
+          "country": "베트남",
+          "isin": "VN000000FRT7",
+          "name": "FPT DIGITAL RETAIL JSC",
+          "buy_amount": 3634,
+          "sell_amount": 0,
+          "net_buy_amount": 3634
+        },
+        {
+          "rank": "12",
+          "country": "베트남",
+          "isin": "VN000000GEX5",
+          "name": "GELEX GROUP JSC",
+          "buy_amount": 2661,
+          "sell_amount": 376,
+          "net_buy_amount": 2285
+        },
+        {
+          "rank": "13",
+          "country": "베트남",
+          "isin": "VN000000GAS3",
+          "name": "PETROVIETNAM GAS JSC",
+          "buy_amount": 1870,
+          "sell_amount": 0,
+          "net_buy_amount": 1870
+        },
+        {
+          "rank": "14",
+          "country": "베트남",
+          "isin": "VN000000DGC1",
+          "name": "DUCGIANG CHEMICALS GROUP JSC",
+          "buy_amount": 1516,
+          "sell_amount": 0,
+          "net_buy_amount": 1516
+        },
+        {
+          "rank": "15",
+          "country": "베트남",
+          "isin": "VN000000VRE6",
+          "name": "VINCOM RETAIL JSC",
+          "buy_amount": 1423,
+          "sell_amount": 6,
+          "net_buy_amount": 1417
+        },
+        {
+          "rank": "16",
+          "country": "베트남",
+          "isin": "VN000000LPB7",
+          "name": "LIEN VIET POST JS COMMERCIAL BANK",
+          "buy_amount": 1012,
+          "sell_amount": 0,
+          "net_buy_amount": 1012
+        },
+        {
+          "rank": "17",
+          "country": "베트남",
+          "isin": "VN000000BID9",
+          "name": "BANK FOR INVESTMENT AND DEVELOPMENT OF VIETNAM",
+          "buy_amount": 876,
+          "sell_amount": 0,
+          "net_buy_amount": 876
+        },
+        {
+          "rank": "18",
+          "country": "베트남",
+          "isin": "VN000000GEE5",
+          "name": "GELEX ELECTRIC JOINT STOCK COMPANY",
+          "buy_amount": 759,
+          "sell_amount": 0,
+          "net_buy_amount": 759
+        },
+        {
+          "rank": "19",
+          "country": "베트남",
+          "isin": "VN000000MSN4",
+          "name": "MASAN GROUP CORP",
+          "buy_amount": 10476,
+          "sell_amount": 9818,
+          "net_buy_amount": 658
+        },
+        {
+          "rank": "20",
+          "country": "베트남",
+          "isin": "VN000000BMP5",
+          "name": "BINH MINH PLASTICS JSC",
+          "buy_amount": 568,
+          "sell_amount": 0,
+          "net_buy_amount": 568
+        },
+        {
+          "rank": "21",
+          "country": "베트남",
+          "isin": "VN000000ACB8",
+          "name": "ASIA COMMERCIAL BANK (ACB)",
+          "buy_amount": 342,
+          "sell_amount": 0,
+          "net_buy_amount": 342
+        },
+        {
+          "rank": "22",
+          "country": "베트남",
+          "isin": "VN000000HHV0",
+          "name": "DEO CA TRAFFIC INFRASTRUCTURE INVESTEMENT JSC",
+          "buy_amount": 312,
+          "sell_amount": 0,
+          "net_buy_amount": 312
+        },
+        {
+          "rank": "23",
+          "country": "베트남",
+          "isin": "VN000000GMD0",
+          "name": "GEMADEPT CORP",
+          "buy_amount": 297,
+          "sell_amount": 0,
+          "net_buy_amount": 297
+        },
+        {
+          "rank": "24",
+          "country": "베트남",
+          "isin": "VN000000CTR4",
+          "name": "VIETTEL CONSTRUCTION JSC",
+          "buy_amount": 283,
+          "sell_amount": 0,
+          "net_buy_amount": 283
+        },
+        {
+          "rank": "25",
+          "country": "베트남",
+          "isin": "VN000000VHC1",
+          "name": "VINH HOAN CORP",
+          "buy_amount": 201,
+          "sell_amount": 0,
+          "net_buy_amount": 201
+        },
+        {
+          "rank": "26",
+          "country": "베트남",
+          "isin": "VN000000PGV5",
+          "name": "POWER GENERATION JOINT STOCK CORPORATION 3",
+          "buy_amount": 179,
+          "sell_amount": 0,
+          "net_buy_amount": 179
+        },
+        {
+          "rank": "27",
+          "country": "베트남",
+          "isin": "VN000000ADP6",
+          "name": "ADP",
+          "buy_amount": 177,
+          "sell_amount": 0,
+          "net_buy_amount": 177
+        },
+        {
+          "rank": "28",
+          "country": "베트남",
+          "isin": "VN000000VCI9",
+          "name": "VIETCAP SECURITIES",
+          "buy_amount": 166,
+          "sell_amount": 0,
+          "net_buy_amount": 166
+        },
+        {
+          "rank": "29",
+          "country": "베트남",
+          "isin": "VN000000CII6",
+          "name": "HO CHI MINH CITY INFRASTRUCTURE INVESTMENT JSC",
+          "buy_amount": 494,
+          "sell_amount": 340,
+          "net_buy_amount": 153
+        },
+        {
+          "rank": "30",
+          "country": "베트남",
+          "isin": "VN000000PLX1",
+          "name": "VIETNAM NATIONAL PETROLEUM GROUP",
+          "buy_amount": 127,
+          "sell_amount": 0,
+          "net_buy_amount": 127
+        },
+        {
+          "rank": "31",
+          "country": "베트남",
+          "isin": "VN000000DCM9",
+          "name": "PETROVIETNAM CA MAU FERTILIZER JSC",
+          "buy_amount": 119,
+          "sell_amount": 0,
+          "net_buy_amount": 119
+        },
+        {
+          "rank": "32",
+          "country": "베트남",
+          "isin": "VN000000SAB4",
+          "name": "SAIGON BEER ALCOHOL BEVERAGE CORP",
+          "buy_amount": 679,
+          "sell_amount": 566,
+          "net_buy_amount": 112
+        },
+        {
+          "rank": "33",
+          "country": "베트남",
+          "isin": "VN000000AGR5",
+          "name": "AGRIBANK SECURITIES JSC",
+          "buy_amount": 101,
+          "sell_amount": 0,
+          "net_buy_amount": 101
+        },
+        {
+          "rank": "34",
+          "country": "베트남",
+          "isin": "VN000000VPB6",
+          "name": "VIETNAM PROSPERITY JS COMMERCIAL BANK",
+          "buy_amount": 97,
+          "sell_amount": 0,
+          "net_buy_amount": 97
+        },
+        {
+          "rank": "35",
+          "country": "베트남",
+          "isin": "VN000000VPD2",
+          "name": "VIETNAM POWER DEVELOPMENT JSC",
+          "buy_amount": 80,
+          "sell_amount": 0,
+          "net_buy_amount": 80
+        },
+        {
+          "rank": "36",
+          "country": "베트남",
+          "isin": "VN000000VCG3",
+          "name": "VIETNAM CONSTRUCTION AND IMPORT EXPORT JSC",
+          "buy_amount": 61,
+          "sell_amount": 0,
+          "net_buy_amount": 61
+        },
+        {
+          "rank": "37",
+          "country": "베트남",
+          "isin": "VN000000TPB0",
+          "name": "TIEN PHONG COMMERCIAL JS BANK",
+          "buy_amount": 56,
+          "sell_amount": 0,
+          "net_buy_amount": 56
+        },
+        {
+          "rank": "38",
+          "country": "베트남",
+          "isin": "VN000000POW7",
+          "name": "PETROVIETNAM POWER CORP",
+          "buy_amount": 53,
+          "sell_amount": 0,
+          "net_buy_amount": 53
+        },
+        {
+          "rank": "39",
+          "country": "베트남",
+          "isin": "VN000000TVS2",
+          "name": "THIEN VIET SECURITIES JSC",
+          "buy_amount": 52,
+          "sell_amount": 0,
+          "net_buy_amount": 52
+        },
+        {
+          "rank": "40",
+          "country": "베트남",
+          "isin": "VN000000SCR6",
+          "name": "SAIGON THUONG TIN REAL ESTATE JSC",
+          "buy_amount": 18,
+          "sell_amount": 0,
+          "net_buy_amount": 18
+        }
+      ]
+    },
+    "1M": {
+      "전체": [
+        {
+          "rank": "1",
+          "country": "미국",
+          "isin": "US25459W4583",
+          "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+          "buy_amount": 6168574834,
+          "sell_amount": 4293301813,
+          "net_buy_amount": 1875273021
+        },
+        {
+          "rank": "2",
+          "country": "미국",
+          "isin": "US78392B2060",
+          "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+          "buy_amount": 1156711023,
+          "sell_amount": 232999417,
+          "net_buy_amount": 923711606
+        },
+        {
+          "rank": "3",
+          "country": "미국",
+          "isin": "US02079K3059",
+          "name": "ALPHABET INC CL A",
+          "buy_amount": 557383049,
+          "sell_amount": 201157108,
+          "net_buy_amount": 356225942
+        },
+        {
+          "rank": "4",
+          "country": "미국",
+          "isin": "US74347R2067",
+          "name": "PROSHARES ULTRA QQQ ETF",
+          "buy_amount": 329085812,
+          "sell_amount": 31250553,
+          "net_buy_amount": 297835259
+        },
+        {
+          "rank": "5",
+          "country": "미국",
+          "isin": "US74347X8314",
+          "name": "PROSHARES ULTRAPRO QQQ ETF",
+          "buy_amount": 469785945,
+          "sell_amount": 185630656,
+          "net_buy_amount": 284155289
+        },
+        {
+          "rank": "6",
+          "country": "미국",
+          "isin": "US84615Q1031",
+          "name": "SPACE EXPLORATION TECHN-CL A",
+          "buy_amount": 350865498,
+          "sell_amount": 78799506,
+          "net_buy_amount": 272065992
+        },
+        {
+          "rank": "7",
+          "country": "미국",
+          "isin": "US46222L1089",
+          "name": "IONQ INC",
+          "buy_amount": 254690069,
+          "sell_amount": 23972089,
+          "net_buy_amount": 230717980
+        },
+        {
+          "rank": "8",
+          "country": "미국",
+          "isin": "US46138G6492",
+          "name": "INVESCO NASDAQ 100 ETF",
+          "buy_amount": 243159479,
+          "sell_amount": 19626636,
+          "net_buy_amount": 223532844
+        },
+        {
+          "rank": "9",
+          "country": "미국",
+          "isin": "US9229083632",
+          "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+          "buy_amount": 238171190,
+          "sell_amount": 32511958,
+          "net_buy_amount": 205659232
+        },
+        {
+          "rank": "10",
+          "country": "미국",
+          "isin": "US25460G2865",
+          "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+          "buy_amount": 265114484,
+          "sell_amount": 69324385,
+          "net_buy_amount": 195790099
+        },
+        {
+          "rank": "11",
+          "country": "미국",
+          "isin": "US46090E1038",
+          "name": "INVESCO QQQ TRUST SRS 1 ETF",
+          "buy_amount": 230930630,
+          "sell_amount": 69035811,
+          "net_buy_amount": 161894819
+        },
+        {
+          "rank": "12",
+          "country": "미국",
+          "isin": "US0231351067",
+          "name": "AMAZON.COM INC",
+          "buy_amount": 272486459,
+          "sell_amount": 113525243,
+          "net_buy_amount": 158961216
+        },
+        {
+          "rank": "13",
+          "country": "미국",
+          "isin": "US30303M1027",
+          "name": "META PLATFORMS INC CL A",
+          "buy_amount": 257448708,
+          "sell_amount": 116599915,
+          "net_buy_amount": 140848793
+        },
+        {
+          "rank": "14",
+          "country": "미국",
+          "isin": "US0382221051",
+          "name": "APPLIED MATERIALS INC",
+          "buy_amount": 178498128,
+          "sell_amount": 41624609,
+          "net_buy_amount": 136873519
+        },
+        {
+          "rank": "15",
+          "country": "미국",
+          "isin": "US46654Q2030",
+          "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+          "buy_amount": 145776421,
+          "sell_amount": 15297046,
+          "net_buy_amount": 130479374
+        },
+        {
+          "rank": "16",
+          "country": "미국",
+          "isin": "US25461A3876",
+          "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+          "buy_amount": 524595657,
+          "sell_amount": 403781930,
+          "net_buy_amount": 120813727
+        },
+        {
+          "rank": "17",
+          "country": "미국",
+          "isin": "US8085247976",
+          "name": "SCHWAB US DIVIDEND EQUITY ETF",
+          "buy_amount": 183457367,
+          "sell_amount": 78377177,
+          "net_buy_amount": 105080190
+        },
+        {
+          "rank": "18",
+          "country": "미국",
+          "isin": "NL0009805522",
+          "name": "YANDEX NV CL A",
+          "buy_amount": 125916165,
+          "sell_amount": 42687630,
+          "net_buy_amount": 83228535
+        },
+        {
+          "rank": "19",
+          "country": "미국",
+          "isin": "US78433H6751",
+          "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
+          "buy_amount": 94172675,
+          "sell_amount": 12077138,
+          "net_buy_amount": 82095538
+        },
+        {
+          "rank": "20",
+          "country": "미국",
+          "isin": "US0937121079",
+          "name": "BLOOM ENERGY CORP CL A",
+          "buy_amount": 201387751,
+          "sell_amount": 120189096,
+          "net_buy_amount": 81198655
+        },
+        {
+          "rank": "21",
+          "country": "미국",
+          "isin": "US25402D1028",
+          "name": "DIGITALOCEAN HOLDINGS INC",
+          "buy_amount": 101292247,
+          "sell_amount": 21455972,
+          "net_buy_amount": 79836275
+        },
+        {
+          "rank": "22",
+          "country": "미국",
+          "isin": "US0079031078",
+          "name": "ADVANCED MICRO DEVICES INC",
+          "buy_amount": 249782571,
+          "sell_amount": 172884532,
+          "net_buy_amount": 76898039
+        },
+        {
+          "rank": "23",
+          "country": "미국",
+          "isin": "AU0000185993",
+          "name": "IRIS ENERGY LTD",
+          "buy_amount": 110016179,
+          "sell_amount": 34005336,
+          "net_buy_amount": 76010844
+        },
+        {
+          "rank": "24",
+          "country": "미국",
+          "isin": "US4581401001",
+          "name": "INTEL CORP",
+          "buy_amount": 276072579,
+          "sell_amount": 202732159,
+          "net_buy_amount": 73340419
+        },
+        {
+          "rank": "25",
+          "country": "미국",
+          "isin": "US6974351057",
+          "name": "PALO ALTO NETWORKS INC",
+          "buy_amount": 81928199,
+          "sell_amount": 13831440,
+          "net_buy_amount": 68096759
+        },
+        {
+          "rank": "26",
+          "country": "미국",
+          "isin": "US78464A8541",
+          "name": "SPDR PORTFOLIO SP 500 ETF",
+          "buy_amount": 73031522,
+          "sell_amount": 9182576,
+          "net_buy_amount": 63848946
+        },
+        {
+          "rank": "27",
+          "country": "미국",
+          "isin": "US46436E7186",
+          "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+          "buy_amount": 222971452,
+          "sell_amount": 160211307,
+          "net_buy_amount": 62760145
+        },
+        {
+          "rank": "28",
+          "country": "미국",
+          "isin": "US92537N1081",
+          "name": "VERTIV HOLDINGS CO",
+          "buy_amount": 93795809,
+          "sell_amount": 32279834,
+          "net_buy_amount": 61515975
+        },
+        {
+          "rank": "29",
+          "country": "미국",
+          "isin": "US75734B1008",
+          "name": "REDDIT INC",
+          "buy_amount": 75481813,
+          "sell_amount": 17584093,
+          "net_buy_amount": 57897720
+        },
+        {
+          "rank": "30",
+          "country": "미국",
+          "isin": "US23804L1035",
+          "name": "DATADOG INC CL A",
+          "buy_amount": 61567349,
+          "sell_amount": 7147951,
+          "net_buy_amount": 54419398
+        },
+        {
+          "rank": "31",
+          "country": "중국",
+          "isin": "US1234567899",
+          "name": "Dummy ISIN (Not Available)",
+          "buy_amount": 53357164,
+          "sell_amount": 5657580,
+          "net_buy_amount": 47699584
+        },
+        {
+          "rank": "32",
+          "country": "홍콩",
+          "isin": "CNE100007SR6",
+          "name": "03308",
+          "buy_amount": 45460585,
+          "sell_amount": 2015612,
+          "net_buy_amount": 43444973
+        },
+        {
+          "rank": "33",
+          "country": "미국",
+          "isin": "US18915M1071",
+          "name": "CLOUDFLARE INC",
+          "buy_amount": 62968426,
+          "sell_amount": 20387326,
+          "net_buy_amount": 42581100
+        },
+        {
+          "rank": "34",
+          "country": "미국",
+          "isin": "US8740391003",
+          "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+          "buy_amount": 118404620,
+          "sell_amount": 78482121,
+          "net_buy_amount": 39922499
+        },
+        {
+          "rank": "35",
+          "country": "미국",
+          "isin": "US46438T3095",
+          "name": "ISHARES NASDAQ 100 ETF",
+          "buy_amount": 41393599,
+          "sell_amount": 2567235,
+          "net_buy_amount": 38826364
+        },
+        {
+          "rank": "36",
+          "country": "미국",
+          "isin": "US68389X1054",
+          "name": "ORACLE CORP",
+          "buy_amount": 80930248,
+          "sell_amount": 42342634,
+          "net_buy_amount": 38587614
+        },
+        {
+          "rank": "37",
+          "country": "미국",
+          "isin": "US02079K1079",
+          "name": "ALPHABET INC CL C CHAN 39527405649 US38259P7069",
+          "buy_amount": 84291818,
+          "sell_amount": 46725022,
+          "net_buy_amount": 37566796
+        },
+        {
+          "rank": "38",
+          "country": "미국",
+          "isin": "US4642875235",
+          "name": "ISHARES SEMICONDUCTOR ETF",
+          "buy_amount": 243095067,
+          "sell_amount": 208575880,
+          "net_buy_amount": 34519187
+        },
+        {
+          "rank": "39",
+          "country": "미국",
+          "isin": "US1725731079",
+          "name": "Circle Internet",
+          "buy_amount": 71711298,
+          "sell_amount": 39159918,
+          "net_buy_amount": 32551379
+        },
+        {
+          "rank": "40",
+          "country": "미국",
+          "isin": "US46138G6153",
+          "name": "INVESCO PHLX SEMICONDUCTOR ETF",
+          "buy_amount": 55314041,
+          "sell_amount": 23379971,
+          "net_buy_amount": 31934069
+        },
+        {
+          "rank": "41",
+          "country": "미국",
+          "isin": "US88636Y5087",
+          "name": "DEFIANCE DAILY TARGET 2X LONG IONQ ETF",
+          "buy_amount": 47765316,
+          "sell_amount": 15965029,
+          "net_buy_amount": 31800287
+        },
+        {
+          "rank": "42",
+          "country": "미국",
+          "isin": "US03823U1025",
+          "name": "APPLIED OPTOELECTRONICS INC",
+          "buy_amount": 97888722,
+          "sell_amount": 66217038,
+          "net_buy_amount": 31671684
+        },
+        {
+          "rank": "43",
+          "country": "미국",
+          "isin": "US78463V1070",
+          "name": "SPDR GOLD SHARES ETF",
+          "buy_amount": 48157447,
+          "sell_amount": 18251693,
+          "net_buy_amount": 29905755
+        },
+        {
+          "rank": "44",
+          "country": "미국",
+          "isin": "US5738741041",
+          "name": "MARVELL TECHNOLOGY INC",
+          "buy_amount": 178733730,
+          "sell_amount": 149114450,
+          "net_buy_amount": 29619281
+        },
+        {
+          "rank": "45",
+          "country": "미국",
+          "isin": "US78464A4748",
+          "name": "SPDR PORTFOLIO SHORT TERM CORPORATE BOND ETF",
+          "buy_amount": 25184249,
+          "sell_amount": 30427,
+          "net_buy_amount": 25153822
+        },
+        {
+          "rank": "46",
+          "country": "미국",
+          "isin": "US55024U1097",
+          "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+          "buy_amount": 84733134,
+          "sell_amount": 59600619,
+          "net_buy_amount": 25132516
+        },
+        {
+          "rank": "47",
+          "country": "미국",
+          "isin": "US38149W6306",
+          "name": "GOLDMAN SACHS NASDAQ 100 CORE PREMIUM INCOME ETF",
+          "buy_amount": 28998242,
+          "sell_amount": 4152140,
+          "net_buy_amount": 24846102
+        },
+        {
+          "rank": "48",
+          "country": "미국",
+          "isin": "US6391931010",
+          "name": "NAVAN INC-CL A",
+          "buy_amount": 25862051,
+          "sell_amount": 1172895,
+          "net_buy_amount": 24689155
+        },
+        {
+          "rank": "49",
+          "country": "미국",
+          "isin": "US78468R3903",
+          "name": "STATE STREET SPDR PORTFOLIO NASDAQ 100 ETF",
+          "buy_amount": 21033222,
+          "sell_amount": 787994,
+          "net_buy_amount": 20245228
+        },
+        {
+          "rank": "50",
+          "country": "미국",
+          "isin": "US5949724083",
+          "name": "MICROSTRATEGY INC CL A",
+          "buy_amount": 46982622,
+          "sell_amount": 27473610,
+          "net_buy_amount": 19509012
+        }
+      ],
+      "미국": [
+        {
+          "rank": "1",
+          "country": "미국",
+          "isin": "US25459W4583",
+          "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+          "buy_amount": 6168574834,
+          "sell_amount": 4293301813,
+          "net_buy_amount": 1875273021
+        },
+        {
+          "rank": "2",
+          "country": "미국",
+          "isin": "US78392B2060",
+          "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+          "buy_amount": 1156711023,
+          "sell_amount": 232999417,
+          "net_buy_amount": 923711606
+        },
+        {
+          "rank": "3",
+          "country": "미국",
+          "isin": "US02079K3059",
+          "name": "ALPHABET INC CL A",
+          "buy_amount": 557383049,
+          "sell_amount": 201157108,
+          "net_buy_amount": 356225942
+        },
+        {
+          "rank": "4",
+          "country": "미국",
+          "isin": "US74347R2067",
+          "name": "PROSHARES ULTRA QQQ ETF",
+          "buy_amount": 329085812,
+          "sell_amount": 31250553,
+          "net_buy_amount": 297835259
+        },
+        {
+          "rank": "5",
+          "country": "미국",
+          "isin": "US74347X8314",
+          "name": "PROSHARES ULTRAPRO QQQ ETF",
+          "buy_amount": 469785945,
+          "sell_amount": 185630656,
+          "net_buy_amount": 284155289
+        },
+        {
+          "rank": "6",
+          "country": "미국",
+          "isin": "US84615Q1031",
+          "name": "SPACE EXPLORATION TECHN-CL A",
+          "buy_amount": 350865498,
+          "sell_amount": 78799506,
+          "net_buy_amount": 272065992
+        },
+        {
+          "rank": "7",
+          "country": "미국",
+          "isin": "US46222L1089",
+          "name": "IONQ INC",
+          "buy_amount": 254690069,
+          "sell_amount": 23972089,
+          "net_buy_amount": 230717980
+        },
+        {
+          "rank": "8",
+          "country": "미국",
+          "isin": "US46138G6492",
+          "name": "INVESCO NASDAQ 100 ETF",
+          "buy_amount": 243159479,
+          "sell_amount": 19626636,
+          "net_buy_amount": 223532844
+        },
+        {
+          "rank": "9",
+          "country": "미국",
+          "isin": "US9229083632",
+          "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+          "buy_amount": 238171190,
+          "sell_amount": 32511958,
+          "net_buy_amount": 205659232
+        },
+        {
+          "rank": "10",
+          "country": "미국",
+          "isin": "US25460G2865",
+          "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+          "buy_amount": 265114484,
+          "sell_amount": 69324385,
+          "net_buy_amount": 195790099
+        },
+        {
+          "rank": "11",
+          "country": "미국",
+          "isin": "US46090E1038",
+          "name": "INVESCO QQQ TRUST SRS 1 ETF",
+          "buy_amount": 230930630,
+          "sell_amount": 69035811,
+          "net_buy_amount": 161894819
+        },
+        {
+          "rank": "12",
+          "country": "미국",
+          "isin": "US0231351067",
+          "name": "AMAZON.COM INC",
+          "buy_amount": 272486459,
+          "sell_amount": 113525243,
+          "net_buy_amount": 158961216
+        },
+        {
+          "rank": "13",
+          "country": "미국",
+          "isin": "US30303M1027",
+          "name": "META PLATFORMS INC CL A",
+          "buy_amount": 257448708,
+          "sell_amount": 116599915,
+          "net_buy_amount": 140848793
+        },
+        {
+          "rank": "14",
+          "country": "미국",
+          "isin": "US0382221051",
+          "name": "APPLIED MATERIALS INC",
+          "buy_amount": 178498128,
+          "sell_amount": 41624609,
+          "net_buy_amount": 136873519
+        },
+        {
+          "rank": "15",
+          "country": "미국",
+          "isin": "US46654Q2030",
+          "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+          "buy_amount": 145776421,
+          "sell_amount": 15297046,
+          "net_buy_amount": 130479374
+        },
+        {
+          "rank": "16",
+          "country": "미국",
+          "isin": "US25461A3876",
+          "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+          "buy_amount": 524595657,
+          "sell_amount": 403781930,
+          "net_buy_amount": 120813727
+        },
+        {
+          "rank": "17",
+          "country": "미국",
+          "isin": "US8085247976",
+          "name": "SCHWAB US DIVIDEND EQUITY ETF",
+          "buy_amount": 183457367,
+          "sell_amount": 78377177,
+          "net_buy_amount": 105080190
+        },
+        {
+          "rank": "18",
+          "country": "미국",
+          "isin": "NL0009805522",
+          "name": "YANDEX NV CL A",
+          "buy_amount": 125916165,
+          "sell_amount": 42687630,
+          "net_buy_amount": 83228535
+        },
+        {
+          "rank": "19",
+          "country": "미국",
+          "isin": "US78433H6751",
+          "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
+          "buy_amount": 94172675,
+          "sell_amount": 12077138,
+          "net_buy_amount": 82095538
+        },
+        {
+          "rank": "20",
+          "country": "미국",
+          "isin": "US0937121079",
+          "name": "BLOOM ENERGY CORP CL A",
+          "buy_amount": 201387751,
+          "sell_amount": 120189096,
+          "net_buy_amount": 81198655
+        },
+        {
+          "rank": "21",
+          "country": "미국",
+          "isin": "US25402D1028",
+          "name": "DIGITALOCEAN HOLDINGS INC",
+          "buy_amount": 101292247,
+          "sell_amount": 21455972,
+          "net_buy_amount": 79836275
+        },
+        {
+          "rank": "22",
+          "country": "미국",
+          "isin": "US0079031078",
+          "name": "ADVANCED MICRO DEVICES INC",
+          "buy_amount": 249782571,
+          "sell_amount": 172884532,
+          "net_buy_amount": 76898039
+        },
+        {
+          "rank": "23",
+          "country": "미국",
+          "isin": "AU0000185993",
+          "name": "IRIS ENERGY LTD",
+          "buy_amount": 110016179,
+          "sell_amount": 34005336,
+          "net_buy_amount": 76010844
+        },
+        {
+          "rank": "24",
+          "country": "미국",
+          "isin": "US4581401001",
+          "name": "INTEL CORP",
+          "buy_amount": 276072579,
+          "sell_amount": 202732159,
+          "net_buy_amount": 73340419
+        },
+        {
+          "rank": "25",
+          "country": "미국",
+          "isin": "US6974351057",
+          "name": "PALO ALTO NETWORKS INC",
+          "buy_amount": 81928199,
+          "sell_amount": 13831440,
+          "net_buy_amount": 68096759
+        },
+        {
+          "rank": "26",
+          "country": "미국",
+          "isin": "US78464A8541",
+          "name": "SPDR PORTFOLIO SP 500 ETF",
+          "buy_amount": 73031522,
+          "sell_amount": 9182576,
+          "net_buy_amount": 63848946
+        },
+        {
+          "rank": "27",
+          "country": "미국",
+          "isin": "US46436E7186",
+          "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+          "buy_amount": 222971452,
+          "sell_amount": 160211307,
+          "net_buy_amount": 62760145
+        },
+        {
+          "rank": "28",
+          "country": "미국",
+          "isin": "US92537N1081",
+          "name": "VERTIV HOLDINGS CO",
+          "buy_amount": 93795809,
+          "sell_amount": 32279834,
+          "net_buy_amount": 61515975
+        },
+        {
+          "rank": "29",
+          "country": "미국",
+          "isin": "US75734B1008",
+          "name": "REDDIT INC",
+          "buy_amount": 75481813,
+          "sell_amount": 17584093,
+          "net_buy_amount": 57897720
+        },
+        {
+          "rank": "30",
+          "country": "미국",
+          "isin": "US23804L1035",
+          "name": "DATADOG INC CL A",
+          "buy_amount": 61567349,
+          "sell_amount": 7147951,
+          "net_buy_amount": 54419398
+        },
+        {
+          "rank": "31",
+          "country": "미국",
+          "isin": "US18915M1071",
+          "name": "CLOUDFLARE INC",
+          "buy_amount": 62968426,
+          "sell_amount": 20387326,
+          "net_buy_amount": 42581100
+        },
+        {
+          "rank": "32",
+          "country": "미국",
+          "isin": "US8740391003",
+          "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+          "buy_amount": 118404620,
+          "sell_amount": 78482121,
+          "net_buy_amount": 39922499
+        },
+        {
+          "rank": "33",
+          "country": "미국",
+          "isin": "US46438T3095",
+          "name": "ISHARES NASDAQ 100 ETF",
+          "buy_amount": 41393599,
+          "sell_amount": 2567235,
+          "net_buy_amount": 38826364
+        },
+        {
+          "rank": "34",
+          "country": "미국",
+          "isin": "US68389X1054",
+          "name": "ORACLE CORP",
+          "buy_amount": 80930248,
+          "sell_amount": 42342634,
+          "net_buy_amount": 38587614
+        },
+        {
+          "rank": "35",
+          "country": "미국",
+          "isin": "US02079K1079",
+          "name": "ALPHABET INC CL C CHAN 39527405649 US38259P7069",
+          "buy_amount": 84291818,
+          "sell_amount": 46725022,
+          "net_buy_amount": 37566796
+        },
+        {
+          "rank": "36",
+          "country": "미국",
+          "isin": "US4642875235",
+          "name": "ISHARES SEMICONDUCTOR ETF",
+          "buy_amount": 243095067,
+          "sell_amount": 208575880,
+          "net_buy_amount": 34519187
+        },
+        {
+          "rank": "37",
+          "country": "미국",
+          "isin": "US1725731079",
+          "name": "Circle Internet",
+          "buy_amount": 71711298,
+          "sell_amount": 39159918,
+          "net_buy_amount": 32551379
+        },
+        {
+          "rank": "38",
+          "country": "미국",
+          "isin": "US46138G6153",
+          "name": "INVESCO PHLX SEMICONDUCTOR ETF",
+          "buy_amount": 55314041,
+          "sell_amount": 23379971,
+          "net_buy_amount": 31934069
+        },
+        {
+          "rank": "39",
+          "country": "미국",
+          "isin": "US88636Y5087",
+          "name": "DEFIANCE DAILY TARGET 2X LONG IONQ ETF",
+          "buy_amount": 47765316,
+          "sell_amount": 15965029,
+          "net_buy_amount": 31800287
+        },
+        {
+          "rank": "40",
+          "country": "미국",
+          "isin": "US03823U1025",
+          "name": "APPLIED OPTOELECTRONICS INC",
+          "buy_amount": 97888722,
+          "sell_amount": 66217038,
+          "net_buy_amount": 31671684
+        },
+        {
+          "rank": "41",
+          "country": "미국",
+          "isin": "US78463V1070",
+          "name": "SPDR GOLD SHARES ETF",
+          "buy_amount": 48157447,
+          "sell_amount": 18251693,
+          "net_buy_amount": 29905755
+        },
+        {
+          "rank": "42",
+          "country": "미국",
+          "isin": "US5738741041",
+          "name": "MARVELL TECHNOLOGY INC",
+          "buy_amount": 178733730,
+          "sell_amount": 149114450,
+          "net_buy_amount": 29619281
+        },
+        {
+          "rank": "43",
+          "country": "미국",
+          "isin": "US78464A4748",
+          "name": "SPDR PORTFOLIO SHORT TERM CORPORATE BOND ETF",
+          "buy_amount": 25184249,
+          "sell_amount": 30427,
+          "net_buy_amount": 25153822
+        },
+        {
+          "rank": "44",
+          "country": "미국",
+          "isin": "US55024U1097",
+          "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+          "buy_amount": 84733134,
+          "sell_amount": 59600619,
+          "net_buy_amount": 25132516
+        },
+        {
+          "rank": "45",
+          "country": "미국",
+          "isin": "US38149W6306",
+          "name": "GOLDMAN SACHS NASDAQ 100 CORE PREMIUM INCOME ETF",
+          "buy_amount": 28998242,
+          "sell_amount": 4152140,
+          "net_buy_amount": 24846102
+        },
+        {
+          "rank": "46",
+          "country": "미국",
+          "isin": "US6391931010",
+          "name": "NAVAN INC-CL A",
+          "buy_amount": 25862051,
+          "sell_amount": 1172895,
+          "net_buy_amount": 24689155
+        },
+        {
+          "rank": "47",
+          "country": "미국",
+          "isin": "US78468R3903",
+          "name": "STATE STREET SPDR PORTFOLIO NASDAQ 100 ETF",
+          "buy_amount": 21033222,
+          "sell_amount": 787994,
+          "net_buy_amount": 20245228
+        },
+        {
+          "rank": "48",
+          "country": "미국",
+          "isin": "US5949724083",
+          "name": "MICROSTRATEGY INC CL A",
+          "buy_amount": 46982622,
+          "sell_amount": 27473610,
+          "net_buy_amount": 19509012
+        },
+        {
+          "rank": "49",
+          "country": "미국",
+          "isin": "US60937P1066",
+          "name": "MONGODB INC",
+          "buy_amount": 22407273,
+          "sell_amount": 3001410,
+          "net_buy_amount": 19405863
+        },
+        {
+          "rank": "50",
+          "country": "미국",
+          "isin": "US88636R2224",
+          "name": "DEFIANCE DAILY TARGET 2X LONG RKLB ETF",
+          "buy_amount": 32888599,
+          "sell_amount": 14352432,
+          "net_buy_amount": 18536167
+        }
+      ],
+      "홍콩": [
+        {
+          "rank": "1",
+          "country": "홍콩",
+          "isin": "CNE100007SR6",
+          "name": "03308",
+          "buy_amount": 45460585,
+          "sell_amount": 2015612,
+          "net_buy_amount": 43444973
+        },
+        {
+          "rank": "2",
+          "country": "홍콩",
+          "isin": "KYG844001035",
+          "name": "CHINA TIANRUI AUTOMOTIVE INTERIORS CO LTD",
+          "buy_amount": 16452710,
+          "sell_amount": 5570929,
+          "net_buy_amount": 10881782
+        },
+        {
+          "rank": "3",
+          "country": "홍콩",
+          "isin": "HK0000123577",
+          "name": "CHINAAMC CSI 300 INDEX ETF HKD",
+          "buy_amount": 11113084,
+          "sell_amount": 2452072,
+          "net_buy_amount": 8661012
+        },
+        {
+          "rank": "4",
+          "country": "홍콩",
+          "isin": "BMG2233G2014",
+          "name": "CMBC CAPITAL HOLDINGS LTD PARI 008855698 BMG2233G3004",
+          "buy_amount": 9924713,
+          "sell_amount": 2047415,
+          "net_buy_amount": 7877298
+        },
+        {
+          "rank": "5",
+          "country": "홍콩",
+          "isin": "HK0000642568",
+          "name": "CSOP HANG SENG TECH INDEX ETF (HKD)",
+          "buy_amount": 7987021,
+          "sell_amount": 174519,
+          "net_buy_amount": 7812502
+        },
+        {
+          "rank": "6",
+          "country": "홍콩",
+          "isin": "KYG017191142",
+          "name": "ALIBABA GROUP HOLDING LTD",
+          "buy_amount": 13703137,
+          "sell_amount": 10439361,
+          "net_buy_amount": 3263776
+        },
+        {
+          "rank": "7",
+          "country": "홍콩",
+          "isin": "HK0000637832",
+          "name": "GLOBAL X CHINA SEMICONDUCTOR ETF (HKD)",
+          "buy_amount": 7959550,
+          "sell_amount": 4940623,
+          "net_buy_amount": 3018928
+        },
+        {
+          "rank": "8",
+          "country": "홍콩",
+          "isin": "KYG6875A1177",
+          "name": "EASYHOLD GROUP HOLDINGS LTD EASYHOLD GROUP HOLDINGS LTD PARI 996251416 KYG6875A1250",
+          "buy_amount": 3115593,
+          "sell_amount": 417312,
+          "net_buy_amount": 2698280
+        },
+        {
+          "rank": "9",
+          "country": "홍콩",
+          "isin": "KYG070341048",
+          "name": "BAIDU INC CL A",
+          "buy_amount": 4079791,
+          "sell_amount": 1801233,
+          "net_buy_amount": 2278558
+        },
+        {
+          "rank": "10",
+          "country": "홍콩",
+          "isin": "HK0000761400",
+          "name": "PREMIA CHINA STAR50 ETF HKD",
+          "buy_amount": 7757269,
+          "sell_amount": 5823463,
+          "net_buy_amount": 1933805
+        },
+        {
+          "rank": "11",
+          "country": "홍콩",
+          "isin": "CNE100007CW0",
+          "name": "XUNCE",
+          "buy_amount": 5429805,
+          "sell_amount": 4138489,
+          "net_buy_amount": 1291316
+        },
+        {
+          "rank": "12",
+          "country": "홍콩",
+          "isin": "CNE100001T80",
+          "name": "CGN POWER CO LTD-H",
+          "buy_amount": 1612420,
+          "sell_amount": 603340,
+          "net_buy_amount": 1009080
+        },
+        {
+          "rank": "13",
+          "country": "홍콩",
+          "isin": "HK0000702735",
+          "name": "CSOP STAR 50 INDEX ETF",
+          "buy_amount": 1322382,
+          "sell_amount": 360691,
+          "net_buy_amount": 961691
+        },
+        {
+          "rank": "14",
+          "country": "홍콩",
+          "isin": "CNE100007DD8",
+          "name": "06082",
+          "buy_amount": 1837335,
+          "sell_amount": 886691,
+          "net_buy_amount": 950644
+        },
+        {
+          "rank": "15",
+          "country": "홍콩",
+          "isin": "CNE1000009W5",
+          "name": "CHONGQING MACHINERY AND ELECTRIC CO LTD-H",
+          "buy_amount": 871828,
+          "sell_amount": 474,
+          "net_buy_amount": 871355
+        },
+        {
+          "rank": "16",
+          "country": "홍콩",
+          "isin": "KYG4181B1196",
+          "name": "GUANGDONG - HONG KONG GREAT GUANGDONG HONG KONG GREATER PARI 009684785 KYG4181B1014",
+          "buy_amount": 522342,
+          "sell_amount": 0,
+          "net_buy_amount": 522342
+        },
+        {
+          "rank": "17",
+          "country": "홍콩",
+          "isin": "CNE100007RM9",
+          "name": "CCTC",
+          "buy_amount": 485639,
+          "sell_amount": 0,
+          "net_buy_amount": 485639
+        },
+        {
+          "rank": "18",
+          "country": "홍콩",
+          "isin": "CNE100006QG5",
+          "name": "INNOSCIENCE",
+          "buy_amount": 583950,
+          "sell_amount": 116080,
+          "net_buy_amount": 467870
+        },
+        {
+          "rank": "19",
+          "country": "홍콩",
+          "isin": "BMG5215H1051",
+          "name": "KARRIE INTERNATIONAL HOLDINGS LTD",
+          "buy_amount": 436480,
+          "sell_amount": 0,
+          "net_buy_amount": 436480
+        },
+        {
+          "rank": "20",
+          "country": "홍콩",
+          "isin": "KYG392AS1011",
+          "name": "GLOBAL NEW MATERIAL INTL HOLDINGS LTD",
+          "buy_amount": 325183,
+          "sell_amount": 0,
+          "net_buy_amount": 325183
+        },
+        {
+          "rank": "21",
+          "country": "홍콩",
+          "isin": "CNE100007DH9",
+          "name": "02513",
+          "buy_amount": 10287101,
+          "sell_amount": 9965977,
+          "net_buy_amount": 321124
+        },
+        {
+          "rank": "22",
+          "country": "홍콩",
+          "isin": "KYG9897M1270",
+          "name": "ZHONGSHI MINAN",
+          "buy_amount": 350871,
+          "sell_amount": 84008,
+          "net_buy_amount": 266863
+        },
+        {
+          "rank": "23",
+          "country": "홍콩",
+          "isin": "KYG9830T1067",
+          "name": "XIAOMI CORP",
+          "buy_amount": 6126646,
+          "sell_amount": 5876960,
+          "net_buy_amount": 249686
+        },
+        {
+          "rank": "24",
+          "country": "홍콩",
+          "isin": "CNE100007DJ5",
+          "name": "03986",
+          "buy_amount": 2019284,
+          "sell_amount": 1802836,
+          "net_buy_amount": 216448
+        },
+        {
+          "rank": "25",
+          "country": "홍콩",
+          "isin": "SG1V07936171",
+          "name": "CHINA XLX FERTILISER LTD",
+          "buy_amount": 214043,
+          "sell_amount": 5438,
+          "net_buy_amount": 208605
+        },
+        {
+          "rank": "26",
+          "country": "홍콩",
+          "isin": "KYG525621408",
+          "name": "KINGBOARD HOLDINGS LTD",
+          "buy_amount": 374581,
+          "sell_amount": 202317,
+          "net_buy_amount": 172264
+        },
+        {
+          "rank": "27",
+          "country": "홍콩",
+          "isin": "CNE1000062J1",
+          "name": "SKB BIO-B",
+          "buy_amount": 183522,
+          "sell_amount": 11485,
+          "net_buy_amount": 172038
+        },
+        {
+          "rank": "28",
+          "country": "홍콩",
+          "isin": "BMG0R33J2028",
+          "name": "ALCO HOLDINGS LTD ALCO HOLDINGS LTD PARI 985628099 BMG0R33J1376",
+          "buy_amount": 178505,
+          "sell_amount": 14952,
+          "net_buy_amount": 163554
+        },
+        {
+          "rank": "29",
+          "country": "홍콩",
+          "isin": "CNE1000002Q2",
+          "name": "CHINA PETROLEUM AND CHEMICAL CORP-H",
+          "buy_amount": 202002,
+          "sell_amount": 39986,
+          "net_buy_amount": 162016
+        },
+        {
+          "rank": "30",
+          "country": "홍콩",
+          "isin": "CNE100007HC1",
+          "name": "DELTON",
+          "buy_amount": 153692,
+          "sell_amount": 0,
+          "net_buy_amount": 153692
+        },
+        {
+          "rank": "31",
+          "country": "홍콩",
+          "isin": "AU000000YAL0",
+          "name": "YANCOAL AUSTRALIA LTD",
+          "buy_amount": 130127,
+          "sell_amount": 0,
+          "net_buy_amount": 130127
+        },
+        {
+          "rank": "32",
+          "country": "홍콩",
+          "isin": "CNE100002QY7",
+          "name": "ZHONGAN ONLINE P+C INSURANCE CO LTD-H",
+          "buy_amount": 136353,
+          "sell_amount": 30133,
+          "net_buy_amount": 106220
+        },
+        {
+          "rank": "33",
+          "country": "홍콩",
+          "isin": "HK0000637857",
+          "name": "GLOBAL X CHINA ROBOTICS AND AI ETF (HKD)",
+          "buy_amount": 379080,
+          "sell_amount": 276678,
+          "net_buy_amount": 102402
+        },
+        {
+          "rank": "34",
+          "country": "홍콩",
+          "isin": "KYG6264V1361",
+          "name": "MONGOLIAN MINING CORP PARI 006731593 KYG6264V1445",
+          "buy_amount": 78311,
+          "sell_amount": 0,
+          "net_buy_amount": 78311
+        },
+        {
+          "rank": "35",
+          "country": "홍콩",
+          "isin": "CNE100005K77",
+          "name": "LEAPMOTOR",
+          "buy_amount": 88293,
+          "sell_amount": 10604,
+          "net_buy_amount": 77689
+        },
+        {
+          "rank": "36",
+          "country": "홍콩",
+          "isin": "BMG9723F1225",
+          "name": "WINSHINE SCIENCE CO LTD WINSHINE SCIENCE CO LTD PARI 960657228 BMG9723F1308",
+          "buy_amount": 78946,
+          "sell_amount": 21374,
+          "net_buy_amount": 57572
+        },
+        {
+          "rank": "37",
+          "country": "홍콩",
+          "isin": "CNE1000074Z2",
+          "name": "ZHIDA TECH",
+          "buy_amount": 50968,
+          "sell_amount": 0,
+          "net_buy_amount": 50968
+        },
+        {
+          "rank": "38",
+          "country": "홍콩",
+          "isin": "KYG368441195",
+          "name": "FUFENG GROUP LTD",
+          "buy_amount": 51017,
+          "sell_amount": 1312,
+          "net_buy_amount": 49706
+        },
+        {
+          "rank": "39",
+          "country": "홍콩",
+          "isin": "HK0000049939",
+          "name": "CHINA UNICOM HK LTD",
+          "buy_amount": 54504,
+          "sell_amount": 8165,
+          "net_buy_amount": 46339
+        },
+        {
+          "rank": "40",
+          "country": "홍콩",
+          "isin": "CNE100007DV0",
+          "name": "ILUVATAR COREX",
+          "buy_amount": 352178,
+          "sell_amount": 306088,
+          "net_buy_amount": 46090
+        },
+        {
+          "rank": "41",
+          "country": "홍콩",
+          "isin": "HK2800008867",
+          "name": "TRACKER FUND OF HONG KONG ETF",
+          "buy_amount": 45361,
+          "sell_amount": 0,
+          "net_buy_amount": 45361
+        },
+        {
+          "rank": "42",
+          "country": "홍콩",
+          "isin": "KYG4790P1037",
+          "name": "03696",
+          "buy_amount": 630785,
+          "sell_amount": 586171,
+          "net_buy_amount": 44614
+        },
+        {
+          "rank": "43",
+          "country": "홍콩",
+          "isin": "KYG9302L1288",
+          "name": "UNIVERSAL HEALTH INTERNATIO UNIVERSAL HEALTH INTERNATION PARI 979243786 KYG9302L1361",
+          "buy_amount": 45084,
+          "sell_amount": 875,
+          "net_buy_amount": 44209
+        },
+        {
+          "rank": "44",
+          "country": "홍콩",
+          "isin": "KYG884931042",
+          "name": "361 DEGREES INTL LTD",
+          "buy_amount": 43505,
+          "sell_amount": 0,
+          "net_buy_amount": 43505
+        },
+        {
+          "rank": "45",
+          "country": "홍콩",
+          "isin": "BMG0171K1018",
+          "name": "ALIBABA HEALTH INFORMATION TECHNOLOGY LTD CHAN 39413205067 BMG2154E1021",
+          "buy_amount": 202066,
+          "sell_amount": 161458,
+          "net_buy_amount": 40608
+        },
+        {
+          "rank": "46",
+          "country": "홍콩",
+          "isin": "HK1126010854",
+          "name": "DREAM INTERNATIONAL LTD",
+          "buy_amount": 40494,
+          "sell_amount": 431,
+          "net_buy_amount": 40063
+        },
+        {
+          "rank": "47",
+          "country": "홍콩",
+          "isin": "HK2380027329",
+          "name": "CHINA POWER INTL DEVELOPMENT LTD",
+          "buy_amount": 1015937,
+          "sell_amount": 976496,
+          "net_buy_amount": 39441
+        },
+        {
+          "rank": "48",
+          "country": "홍콩",
+          "isin": "KYG5074A1004",
+          "name": "JD HEALTH INTERNATIONAL INC",
+          "buy_amount": 49344,
+          "sell_amount": 12950,
+          "net_buy_amount": 36394
+        },
+        {
+          "rank": "49",
+          "country": "홍콩",
+          "isin": "HK0000248234",
+          "name": "CSOP SZSE CHINEXT ETF (HKD)",
+          "buy_amount": 124830,
+          "sell_amount": 88877,
+          "net_buy_amount": 35953
+        },
+        {
+          "rank": "50",
+          "country": "홍콩",
+          "isin": "KYG211771038",
+          "name": "CHINA SILVER GROUP LTD",
+          "buy_amount": 35367,
+          "sell_amount": 0,
+          "net_buy_amount": 35367
+        }
+      ],
+      "중국": [
+        {
+          "rank": "1",
+          "country": "중국",
+          "isin": "US1234567899",
+          "name": "Dummy ISIN (Not Available)",
+          "buy_amount": 53357164,
+          "sell_amount": 5657580,
+          "net_buy_amount": 47699584
+        },
+        {
+          "rank": "2",
+          "country": "중국",
+          "isin": "CNE1000000D4",
+          "name": "WEICHAI POWER CO LTD-A",
+          "buy_amount": 4470062,
+          "sell_amount": 22747,
+          "net_buy_amount": 4447315
+        },
+        {
+          "rank": "3",
+          "country": "중국",
+          "isin": "CNE100005GP9",
+          "name": "TECHWINSEMI",
+          "buy_amount": 3920388,
+          "sell_amount": 97059,
+          "net_buy_amount": 3823329
+        },
+        {
+          "rank": "4",
+          "country": "중국",
+          "isin": "CNE1000041R8",
+          "name": "CAMBRICON TECHNOLOGIES CORPORATION",
+          "buy_amount": 2857718,
+          "sell_amount": 190403,
+          "net_buy_amount": 2667315
+        },
+        {
+          "rank": "5",
+          "country": "중국",
+          "isin": "CNE100003MM9",
+          "name": "ADVANCED MICRO-FABRICATION EQUIPMENT INC-A",
+          "buy_amount": 1847730,
+          "sell_amount": 0,
+          "net_buy_amount": 1847730
+        },
+        {
+          "rank": "6",
+          "country": "중국",
+          "isin": "CNE000001F05",
+          "name": "JCET GROUP CO LTD-A",
+          "buy_amount": 2298150,
+          "sell_amount": 657840,
+          "net_buy_amount": 1640310
+        },
+        {
+          "rank": "7",
+          "country": "중국",
+          "isin": "CNE1000041W8",
+          "name": "SEMICONDUCTOR MANUFACTURING INTL CORP-A",
+          "buy_amount": 1429208,
+          "sell_amount": 0,
+          "net_buy_amount": 1429208
+        },
+        {
+          "rank": "8",
+          "country": "중국",
+          "isin": "CNE100003MN7",
+          "name": "MONTAGE TECHNOLOGY CO LTD-A",
+          "buy_amount": 1427895,
+          "sell_amount": 0,
+          "net_buy_amount": 1427895
+        },
+        {
+          "rank": "9",
+          "country": "중국",
+          "isin": "CNE100006M90",
+          "name": "HUA HONG SEMICONDUCTOR LTD-A",
+          "buy_amount": 1425321,
+          "sell_amount": 157499,
+          "net_buy_amount": 1267821
+        },
+        {
+          "rank": "10",
+          "country": "중국",
+          "isin": "CNE100005X23",
+          "name": "KINGSEMI Co., Ltd",
+          "buy_amount": 1134491,
+          "sell_amount": 0,
+          "net_buy_amount": 1134491
+        },
+        {
+          "rank": "11",
+          "country": "중국",
+          "isin": "CNE100005360",
+          "name": "CIRCUIT FABOLOGY MICROELECTRONICS E",
+          "buy_amount": 1131647,
+          "sell_amount": 0,
+          "net_buy_amount": 1131647
+        },
+        {
+          "rank": "12",
+          "country": "중국",
+          "isin": "CNE100005TH9",
+          "name": "HARVEST FUND MANAGEMENT SSE STAR CHIP IDX ETF CNY",
+          "buy_amount": 1687604,
+          "sell_amount": 566021,
+          "net_buy_amount": 1121582
+        },
+        {
+          "rank": "13",
+          "country": "중국",
+          "isin": "CNE100000ML7",
+          "name": "NAURA TECHNOLOGY GROUP CO LTD-A",
+          "buy_amount": 3851838,
+          "sell_amount": 2986029,
+          "net_buy_amount": 865809
+        },
+        {
+          "rank": "14",
+          "country": "중국",
+          "isin": "CNE100004PJ6",
+          "name": "Guizhou Aviation Technical Development",
+          "buy_amount": 845054,
+          "sell_amount": 0,
+          "net_buy_amount": 845054
+        },
+        {
+          "rank": "15",
+          "country": "중국",
+          "isin": "CNE100000K31",
+          "name": "KEHUA DATA CO LTD-A",
+          "buy_amount": 753768,
+          "sell_amount": 64656,
+          "net_buy_amount": 689112
+        },
+        {
+          "rank": "16",
+          "country": "중국",
+          "isin": "CNE100003662",
+          "name": "CONTEMPORARY AMPEREX TECHNOLOGY CO LTD-A",
+          "buy_amount": 905189,
+          "sell_amount": 245571,
+          "net_buy_amount": 659618
+        },
+        {
+          "rank": "17",
+          "country": "중국",
+          "isin": "CNE100004DL8",
+          "name": "CHINAAMC SSE SCIENCE AND TECHNOLOGY INNOVATION BOARD 50 ETF",
+          "buy_amount": 882467,
+          "sell_amount": 366770,
+          "net_buy_amount": 515697
+        },
+        {
+          "rank": "18",
+          "country": "중국",
+          "isin": "CNE100000PG0",
+          "name": "JIANGSU YOKE TECHNOLOGY CO LTD-A",
+          "buy_amount": 600439,
+          "sell_amount": 148739,
+          "net_buy_amount": 451701
+        },
+        {
+          "rank": "19",
+          "country": "중국",
+          "isin": "CNE100005PT2",
+          "name": "Hygon Information Technology",
+          "buy_amount": 714311,
+          "sell_amount": 269301,
+          "net_buy_amount": 445010
+        },
+        {
+          "rank": "20",
+          "country": "중국",
+          "isin": "CNE000001KM8",
+          "name": "SIEYUAN ELECTRIC CO LTD-A",
+          "buy_amount": 460131,
+          "sell_amount": 24072,
+          "net_buy_amount": 436059
+        },
+        {
+          "rank": "21",
+          "country": "중국",
+          "isin": "CNE100004603",
+          "name": "CHINA ASSET MGT CO",
+          "buy_amount": 788652,
+          "sell_amount": 378927,
+          "net_buy_amount": 409725
+        },
+        {
+          "rank": "22",
+          "country": "중국",
+          "isin": "CNE100003373",
+          "name": "SHENNAN CIRCUITS CO LTD-A",
+          "buy_amount": 972350,
+          "sell_amount": 577090,
+          "net_buy_amount": 395260
+        },
+        {
+          "rank": "23",
+          "country": "중국",
+          "isin": "CNE0000012M2",
+          "name": "INSPUR ELECTRONIC INFORMATION INDUSTRY CO LTD-A",
+          "buy_amount": 1009959,
+          "sell_amount": 644906,
+          "net_buy_amount": 365053
+        },
+        {
+          "rank": "24",
+          "country": "중국",
+          "isin": "CNE000001G38",
+          "name": "NARI TECHNOLOGY CO LTD-A",
+          "buy_amount": 365864,
+          "sell_amount": 32129,
+          "net_buy_amount": 333735
+        },
+        {
+          "rank": "25",
+          "country": "중국",
+          "isin": "CNE100001Y42",
+          "name": "CHAOZHOU THREE-CIRCLE GROUP CO LTD-A",
+          "buy_amount": 622771,
+          "sell_amount": 379689,
+          "net_buy_amount": 243082
+        },
+        {
+          "rank": "26",
+          "country": "중국",
+          "isin": "CNE0000003T6",
+          "name": "GUANGDONG SHUNNA ELECTRIC CO LTD-A",
+          "buy_amount": 476473,
+          "sell_amount": 240011,
+          "net_buy_amount": 236462
+        },
+        {
+          "rank": "27",
+          "country": "중국",
+          "isin": "CNE100006400",
+          "name": "GUOTAI ASSET MGT",
+          "buy_amount": 327126,
+          "sell_amount": 123159,
+          "net_buy_amount": 203968
+        },
+        {
+          "rank": "28",
+          "country": "중국",
+          "isin": "CNE100000LQ8",
+          "name": "HUATAI SECURITIES CO LTD-A",
+          "buy_amount": 215696,
+          "sell_amount": 21532,
+          "net_buy_amount": 194165
+        },
+        {
+          "rank": "29",
+          "country": "중국",
+          "isin": "CNE000000YM1",
+          "name": "CHINA JUSHI CO LTD-A",
+          "buy_amount": 586886,
+          "sell_amount": 402428,
+          "net_buy_amount": 184458
+        },
+        {
+          "rank": "30",
+          "country": "중국",
+          "isin": "CNE100000TP3",
+          "name": "LUXSHARE PRECISION INDUSTRY CO LTD-A",
+          "buy_amount": 408457,
+          "sell_amount": 225830,
+          "net_buy_amount": 182628
+        },
+        {
+          "rank": "31",
+          "country": "중국",
+          "isin": "CNE1000019C6",
+          "name": "GOLDENMAX INTERNATIONAL TECHNOLOGY LTD-A",
+          "buy_amount": 181996,
+          "sell_amount": 0,
+          "net_buy_amount": 181996
+        },
+        {
+          "rank": "32",
+          "country": "중국",
+          "isin": "CNE100004WL8",
+          "name": "CHINA ASSET MANAGEMENT CO ROBOT ETF",
+          "buy_amount": 458183,
+          "sell_amount": 314259,
+          "net_buy_amount": 143924
+        },
+        {
+          "rank": "33",
+          "country": "중국",
+          "isin": "CNE100001X35",
+          "name": "ESTUN AUTOMATION CO LTD-A",
+          "buy_amount": 224888,
+          "sell_amount": 83640,
+          "net_buy_amount": 141247
+        },
+        {
+          "rank": "34",
+          "country": "중국",
+          "isin": "CNE000001GL8",
+          "name": "TCL TECHNOLOGY GROUP CORP-A",
+          "buy_amount": 147943,
+          "sell_amount": 12892,
+          "net_buy_amount": 135051
+        },
+        {
+          "rank": "35",
+          "country": "중국",
+          "isin": "CNE100004D93",
+          "name": "FULLGOAL FUND MANAGEMENT CO LTD CSI INTELLIGENT VE",
+          "buy_amount": 128623,
+          "sell_amount": 0,
+          "net_buy_amount": 128623
+        },
+        {
+          "rank": "36",
+          "country": "중국",
+          "isin": "CNE100000G29",
+          "name": "CHINA TOURISM GROUP DUTY FREE CORP-A",
+          "buy_amount": 706514,
+          "sell_amount": 592357,
+          "net_buy_amount": 114157
+        },
+        {
+          "rank": "37",
+          "country": "중국",
+          "isin": "CNE100002XN6",
+          "name": "CHINA KINGS RESOURCES GROUP CO LTD-A",
+          "buy_amount": 105899,
+          "sell_amount": 0,
+          "net_buy_amount": 105899
+        },
+        {
+          "rank": "38",
+          "country": "중국",
+          "isin": "CNE1000018V8",
+          "name": "GREAT WALL MOTOR CO LTD-A",
+          "buy_amount": 117564,
+          "sell_amount": 12592,
+          "net_buy_amount": 104971
+        },
+        {
+          "rank": "39",
+          "country": "중국",
+          "isin": "CNE100004DC7",
+          "name": "HUATAI-PINEBRIDGE FUND MANAGEMENT PINEBRIDGE CSI PHOTOVALTIC IND",
+          "buy_amount": 109293,
+          "sell_amount": 47064,
+          "net_buy_amount": 62229
+        },
+        {
+          "rank": "40",
+          "country": "중국",
+          "isin": "CNE000001FR7",
+          "name": "SHANDONG GOLD MINING CO LTD-A",
+          "buy_amount": 68383,
+          "sell_amount": 10232,
+          "net_buy_amount": 58151
+        },
+        {
+          "rank": "41",
+          "country": "중국",
+          "isin": "CNE1000000T0",
+          "name": "ALUMINUM CORP OF CHINA LTD-A",
+          "buy_amount": 93006,
+          "sell_amount": 38929,
+          "net_buy_amount": 54077
+        },
+        {
+          "rank": "42",
+          "country": "중국",
+          "isin": "CNE000001BD6",
+          "name": "COSCO SHIPPING ENERGY TRANSPORTATION CO LTD-A",
+          "buy_amount": 52412,
+          "sell_amount": 9302,
+          "net_buy_amount": 43109
+        },
+        {
+          "rank": "43",
+          "country": "중국",
+          "isin": "CNE100000QD5",
+          "name": "SHENZHEN FASTPRINT CIRCUIT TECH CO LTD-A",
+          "buy_amount": 81943,
+          "sell_amount": 38892,
+          "net_buy_amount": 43051
+        },
+        {
+          "rank": "44",
+          "country": "중국",
+          "isin": "CNE0000016W2",
+          "name": "TDG HOLDINGS CO LTD-A",
+          "buy_amount": 39413,
+          "sell_amount": 0,
+          "net_buy_amount": 39413
+        },
+        {
+          "rank": "45",
+          "country": "중국",
+          "isin": "CNE000001FH8",
+          "name": "SHANXI COAL INTL ENERGY GROUP CO LTD-A",
+          "buy_amount": 38518,
+          "sell_amount": 0,
+          "net_buy_amount": 38518
+        },
+        {
+          "rank": "46",
+          "country": "중국",
+          "isin": "CNE1000009T1",
+          "name": "CHINA RAILWAY CONSTRUCTION CORP LTD-A",
+          "buy_amount": 37695,
+          "sell_amount": 1040,
+          "net_buy_amount": 36655
+        },
+        {
+          "rank": "47",
+          "country": "중국",
+          "isin": "CNE000000M15",
+          "name": "HUAYU AUTOMOTIVE SYSTEMS CO LTD-A",
+          "buy_amount": 40172,
+          "sell_amount": 4431,
+          "net_buy_amount": 35740
+        },
+        {
+          "rank": "48",
+          "country": "중국",
+          "isin": "CNE1000023J3",
+          "name": "NINGBO TUOPU GROUP CO LTD-A",
+          "buy_amount": 84329,
+          "sell_amount": 50656,
+          "net_buy_amount": 33673
+        },
+        {
+          "rank": "49",
+          "country": "중국",
+          "isin": "CNE100002TP9",
+          "name": "PROYA COSMETICS CO LTD-A",
+          "buy_amount": 67602,
+          "sell_amount": 36849,
+          "net_buy_amount": 30752
+        },
+        {
+          "rank": "50",
+          "country": "중국",
+          "isin": "CNE000000WQ6",
+          "name": "ZHEJIANG JUHUA CO LTD-A",
+          "buy_amount": 28246,
+          "sell_amount": 1221,
+          "net_buy_amount": 27025
+        }
+      ],
+      "일본": [
+        {
+          "rank": "1",
+          "country": "일본",
+          "isin": "JP3126000003",
+          "name": "ARISAWA MFG CO LTD",
+          "buy_amount": 5695376,
+          "sell_amount": 0,
+          "net_buy_amount": 5695376
+        },
+        {
+          "rank": "2",
+          "country": "일본",
+          "isin": "JP3522600000",
+          "name": "CHUGOKU MARINE PAINTS LTD",
+          "buy_amount": 5105783,
+          "sell_amount": 45,
+          "net_buy_amount": 5105738
+        },
+        {
+          "rank": "3",
+          "country": "일본",
+          "isin": "JP3050420003",
+          "name": "200A",
+          "buy_amount": 6499630,
+          "sell_amount": 2798897,
+          "net_buy_amount": 3700734
+        },
+        {
+          "rank": "4",
+          "country": "일본",
+          "isin": "JP3920890005",
+          "name": "MEC CO LTD",
+          "buy_amount": 3166076,
+          "sell_amount": 433925,
+          "net_buy_amount": 2732151
+        },
+        {
+          "rank": "5",
+          "country": "일본",
+          "isin": "JP3294460005",
+          "name": "INPEX CORP",
+          "buy_amount": 2587910,
+          "sell_amount": 195606,
+          "net_buy_amount": 2392303
+        },
+        {
+          "rank": "6",
+          "country": "일본",
+          "isin": "JP3027650005",
+          "name": "NEXT FUNDS NIKKEI 225 ETF",
+          "buy_amount": 4875629,
+          "sell_amount": 2924566,
+          "net_buy_amount": 1951063
+        },
+        {
+          "rank": "7",
+          "country": "일본",
+          "isin": "JP3630550006",
+          "name": "TOMY CO LTD",
+          "buy_amount": 1390075,
+          "sell_amount": 30147,
+          "net_buy_amount": 1359928
+        },
+        {
+          "rank": "8",
+          "country": "일본",
+          "isin": "JP3946750001",
+          "name": "JAPAN POST BANK CO LTD",
+          "buy_amount": 1128141,
+          "sell_amount": 19965,
+          "net_buy_amount": 1108176
+        },
+        {
+          "rank": "9",
+          "country": "일본",
+          "isin": "JP3756600007",
+          "name": "NINTENDO CO LTD",
+          "buy_amount": 6706167,
+          "sell_amount": 5627234,
+          "net_buy_amount": 1078933
+        },
+        {
+          "rank": "10",
+          "country": "일본",
+          "isin": "JP3902400005",
+          "name": "MITSUBISHI ELECTRIC CORP",
+          "buy_amount": 1581586,
+          "sell_amount": 510331,
+          "net_buy_amount": 1071255
+        },
+        {
+          "rank": "11",
+          "country": "일본",
+          "isin": "JP3049870003",
+          "name": "GLOBAL X US TECH TOP 20 ETF",
+          "buy_amount": 1250783,
+          "sell_amount": 260758,
+          "net_buy_amount": 990025
+        },
+        {
+          "rank": "12",
+          "country": "일본",
+          "isin": "JP3049360005",
+          "name": "GLOBAL X JAPAN SEMICONDUCTOR ETF",
+          "buy_amount": 4748738,
+          "sell_amount": 3809289,
+          "net_buy_amount": 939449
+        },
+        {
+          "rank": "13",
+          "country": "일본",
+          "isin": "JP3952870008",
+          "name": "DEMAE-CAN CO LTD",
+          "buy_amount": 937391,
+          "sell_amount": 5974,
+          "net_buy_amount": 931418
+        },
+        {
+          "rank": "14",
+          "country": "일본",
+          "isin": "JP3118000003",
+          "name": "ASICS CORP",
+          "buy_amount": 3314169,
+          "sell_amount": 2504703,
+          "net_buy_amount": 809467
+        },
+        {
+          "rank": "15",
+          "country": "일본",
+          "isin": "JP3802300008",
+          "name": "FAST RETAILING CO LTD",
+          "buy_amount": 4182253,
+          "sell_amount": 3385450,
+          "net_buy_amount": 796803
+        },
+        {
+          "rank": "16",
+          "country": "일본",
+          "isin": "JP3027630007",
+          "name": "NEXT FUNDS TOPIX ETF",
+          "buy_amount": 1175571,
+          "sell_amount": 394101,
+          "net_buy_amount": 781470
+        },
+        {
+          "rank": "17",
+          "country": "일본",
+          "isin": "JP3888400003",
+          "name": "MITSUI MINING AND SMELTING CO LTD",
+          "buy_amount": 4458593,
+          "sell_amount": 3747506,
+          "net_buy_amount": 711087
+        },
+        {
+          "rank": "18",
+          "country": "일본",
+          "isin": "JP3379550001",
+          "name": "NIPPON MINING HOLDINGS,INC.",
+          "buy_amount": 1750579,
+          "sell_amount": 1056193,
+          "net_buy_amount": 694386
+        },
+        {
+          "rank": "19",
+          "country": "일본",
+          "isin": "JP3811000003",
+          "name": "FUJIKURA LTD",
+          "buy_amount": 7277405,
+          "sell_amount": 6615403,
+          "net_buy_amount": 662002
+        },
+        {
+          "rank": "20",
+          "country": "일본",
+          "isin": "JP3027710007",
+          "name": "ISHARES CORE NIKKEI 225 ETF",
+          "buy_amount": 1316585,
+          "sell_amount": 655197,
+          "net_buy_amount": 661389
+        },
+        {
+          "rank": "21",
+          "country": "일본",
+          "isin": "JP3571400005",
+          "name": "TOKYO ELECTRON LTD",
+          "buy_amount": 11949346,
+          "sell_amount": 11310326,
+          "net_buy_amount": 639020
+        },
+        {
+          "rank": "22",
+          "country": "일본",
+          "isin": "JP3765150002",
+          "name": "HARMONIC DRIVE SYSTEMS INC",
+          "buy_amount": 7590839,
+          "sell_amount": 6993720,
+          "net_buy_amount": 597119
+        },
+        {
+          "rank": "23",
+          "country": "일본",
+          "isin": "JP3049720000",
+          "name": "GlobalX Nasdaq10",
+          "buy_amount": 596442,
+          "sell_amount": 44347,
+          "net_buy_amount": 552096
+        },
+        {
+          "rank": "24",
+          "country": "일본",
+          "isin": "JP3360250009",
+          "name": "SHO-BOND HOLDINGS CO LTD",
+          "buy_amount": 535338,
+          "sell_amount": 14158,
+          "net_buy_amount": 521180
+        },
+        {
+          "rank": "25",
+          "country": "일본",
+          "isin": "JP3629000005",
+          "name": "TOPPAN INC",
+          "buy_amount": 486242,
+          "sell_amount": 45838,
+          "net_buy_amount": 440404
+        },
+        {
+          "rank": "26",
+          "country": "일본",
+          "isin": "JP3050310006",
+          "name": "GLOBAL X ULTRA SHORT-TERM T-BILL ETF",
+          "buy_amount": 556954,
+          "sell_amount": 133092,
+          "net_buy_amount": 423862
+        },
+        {
+          "rank": "27",
+          "country": "일본",
+          "isin": "JP3048980001",
+          "name": "MAXIS US EQUITY SP500 ETF",
+          "buy_amount": 974100,
+          "sell_amount": 565224,
+          "net_buy_amount": 408875
+        },
+        {
+          "rank": "28",
+          "country": "일본",
+          "isin": "JP3048390003",
+          "name": "NEXT FUNDS NIKKEI 225 HIGH DIVIDEND YIELD STOCK 50 INDEX ETF",
+          "buy_amount": 1251343,
+          "sell_amount": 844142,
+          "net_buy_amount": 407201
+        },
+        {
+          "rank": "29",
+          "country": "일본",
+          "isin": "JP3890350006",
+          "name": "SUMITOMO MITSUI FINANCIAL GROUP INC",
+          "buy_amount": 1030374,
+          "sell_amount": 643009,
+          "net_buy_amount": 387365
+        },
+        {
+          "rank": "30",
+          "country": "일본",
+          "isin": "JP3049750007",
+          "name": "GLOBAL X S&P 500 COVERED CALL ETF",
+          "buy_amount": 393603,
+          "sell_amount": 11470,
+          "net_buy_amount": 382133
+        },
+        {
+          "rank": "31",
+          "country": "일본",
+          "isin": "JP3027640006",
+          "name": "DAIWA N225 ETF",
+          "buy_amount": 466023,
+          "sell_amount": 102909,
+          "net_buy_amount": 363115
+        },
+        {
+          "rank": "32",
+          "country": "일본",
+          "isin": "JP3893600001",
+          "name": "MITSUI AND CO LTD",
+          "buy_amount": 1483854,
+          "sell_amount": 1121689,
+          "net_buy_amount": 362164
+        },
+        {
+          "rank": "33",
+          "country": "일본",
+          "isin": "JP3048540003",
+          "name": "ISHARES CORE 7-10 YEAR US TREASURY BOND ETF",
+          "buy_amount": 387500,
+          "sell_amount": 56438,
+          "net_buy_amount": 331062
+        },
+        {
+          "rank": "34",
+          "country": "일본",
+          "isin": "JP3778630008",
+          "name": "BANDAI NAMCO HOLDINGS INC",
+          "buy_amount": 870784,
+          "sell_amount": 560500,
+          "net_buy_amount": 310284
+        },
+        {
+          "rank": "35",
+          "country": "일본",
+          "isin": "JP3160960005",
+          "name": "APPRIER GROUP INC",
+          "buy_amount": 325141,
+          "sell_amount": 15354,
+          "net_buy_amount": 309787
+        },
+        {
+          "rank": "36",
+          "country": "일본",
+          "isin": "JP3960000002",
+          "name": "YONEX CO LTD",
+          "buy_amount": 312761,
+          "sell_amount": 25955,
+          "net_buy_amount": 286806
+        },
+        {
+          "rank": "37",
+          "country": "일본",
+          "isin": "JP3894900004",
+          "name": "ISETAN MITSUKOSHI HOLDINGS LTD",
+          "buy_amount": 494523,
+          "sell_amount": 216789,
+          "net_buy_amount": 277734
+        },
+        {
+          "rank": "38",
+          "country": "일본",
+          "isin": "JP3050540008",
+          "name": "ISHARES 25+ YEAR US TREASURY BOND LONG DURATION JP",
+          "buy_amount": 271954,
+          "sell_amount": 125,
+          "net_buy_amount": 271830
+        },
+        {
+          "rank": "39",
+          "country": "일본",
+          "isin": "JP3967220009",
+          "name": "RAKUTEN BANK",
+          "buy_amount": 284094,
+          "sell_amount": 38152,
+          "net_buy_amount": 245942
+        },
+        {
+          "rank": "40",
+          "country": "일본",
+          "isin": "JP3190000004",
+          "name": "OBAYASHI CORP",
+          "buy_amount": 251344,
+          "sell_amount": 7962,
+          "net_buy_amount": 243382
+        },
+        {
+          "rank": "41",
+          "country": "일본",
+          "isin": "JP3049100005",
+          "name": "NIKKO LISTED IDX FUND US EQUITY (NASDAQ 100) CURRENCY HEDGE ETF",
+          "buy_amount": 465006,
+          "sell_amount": 229194,
+          "net_buy_amount": 235812
+        },
+        {
+          "rank": "42",
+          "country": "일본",
+          "isin": "JP3407400005",
+          "name": "SUMITOMO ELECTRIC INDUSTRIES LTD",
+          "buy_amount": 2007434,
+          "sell_amount": 1777535,
+          "net_buy_amount": 229899
+        },
+        {
+          "rank": "43",
+          "country": "일본",
+          "isin": "JP3051440000",
+          "name": "GLOBAL X NASDAQ 100 DAILY COVERED CALL E",
+          "buy_amount": 275607,
+          "sell_amount": 46588,
+          "net_buy_amount": 229019
+        },
+        {
+          "rank": "44",
+          "country": "일본",
+          "isin": "JP3117700009",
+          "name": "MEBUKI FINANCIAL GROUP INC",
+          "buy_amount": 257435,
+          "sell_amount": 33055,
+          "net_buy_amount": 224380
+        },
+        {
+          "rank": "45",
+          "country": "일본",
+          "isin": "JP3735300000",
+          "name": "JAPAN ELECTRONIC MATERIALS CORP",
+          "buy_amount": 652353,
+          "sell_amount": 439560,
+          "net_buy_amount": 212793
+        },
+        {
+          "rank": "46",
+          "country": "일본",
+          "isin": "JP3401400001",
+          "name": "SUMITOMO CHEMICAL CO LTD",
+          "buy_amount": 374233,
+          "sell_amount": 164739,
+          "net_buy_amount": 209493
+        },
+        {
+          "rank": "47",
+          "country": "일본",
+          "isin": "JP3814000000",
+          "name": "FUJIFILM HOLDINGS CORP",
+          "buy_amount": 574937,
+          "sell_amount": 388075,
+          "net_buy_amount": 186863
+        },
+        {
+          "rank": "48",
+          "country": "일본",
+          "isin": "JP3891600003",
+          "name": "MITSUI E AND S CO LTD",
+          "buy_amount": 1835062,
+          "sell_amount": 1652177,
+          "net_buy_amount": 182885
+        },
+        {
+          "rank": "49",
+          "country": "일본",
+          "isin": "JP3734800000",
+          "name": "NIDEC CORP",
+          "buy_amount": 662754,
+          "sell_amount": 482796,
+          "net_buy_amount": 179958
+        },
+        {
+          "rank": "50",
+          "country": "일본",
+          "isin": "JP3050390008",
+          "name": "MAXIS US TREASURY BOND 20+ YEAR ETF (UNHEDGED)",
+          "buy_amount": 179777,
+          "sell_amount": 1241,
+          "net_buy_amount": 178536
+        }
+      ],
+      "베트남": [
+        {
+          "rank": "1",
+          "country": "베트남",
+          "isin": "VN000000FPT1",
+          "name": "FPT CORP",
+          "buy_amount": 177524,
+          "sell_amount": 91890,
+          "net_buy_amount": 85634
+        },
+        {
+          "rank": "2",
+          "country": "베트남",
+          "isin": "VN000000VNM8",
+          "name": "VIETNAM DAIRY PRODUCTS JSC",
+          "buy_amount": 68611,
+          "sell_amount": 21252,
+          "net_buy_amount": 47359
+        },
+        {
+          "rank": "3",
+          "country": "베트남",
+          "isin": "VN0FUEVFVND5",
+          "name": "VFMVN DIAMOND ETF",
+          "buy_amount": 61819,
+          "sell_amount": 44776,
+          "net_buy_amount": 17043
+        },
+        {
+          "rank": "4",
+          "country": "베트남",
+          "isin": "VN000000MBB5",
+          "name": "MILITARY COMMERCIAL JS BANK",
+          "buy_amount": 16403,
+          "sell_amount": 167,
+          "net_buy_amount": 16236
+        },
+        {
+          "rank": "5",
+          "country": "베트남",
+          "isin": "VN000000CTG7",
+          "name": "VIETNAM JS COMMERCIAL BANK FOR INDUSTRY AND TRADE",
+          "buy_amount": 26082,
+          "sell_amount": 10728,
+          "net_buy_amount": 15354
+        },
+        {
+          "rank": "6",
+          "country": "베트남",
+          "isin": "VN000000SCS4",
+          "name": "SAIGON CARGO SERVICE CORP",
+          "buy_amount": 21490,
+          "sell_amount": 11974,
+          "net_buy_amount": 9516
+        },
+        {
+          "rank": "7",
+          "country": "베트남",
+          "isin": "VN000000TCB8",
+          "name": "VIETNAM TECHNOLOGICAL AND COMMERCIAL JS BANK",
+          "buy_amount": 8816,
+          "sell_amount": 428,
+          "net_buy_amount": 8388
+        },
+        {
+          "rank": "8",
+          "country": "베트남",
+          "isin": "VN000000GAS3",
+          "name": "PETROVIETNAM GAS JSC",
+          "buy_amount": 11692,
+          "sell_amount": 3876,
+          "net_buy_amount": 7816
+        },
+        {
+          "rank": "9",
+          "country": "베트남",
+          "isin": "VN000000DHG0",
+          "name": "DHG PHARMACEUTICAL JSC",
+          "buy_amount": 6786,
+          "sell_amount": 349,
+          "net_buy_amount": 6437
+        },
+        {
+          "rank": "10",
+          "country": "베트남",
+          "isin": "VN000000CMX7",
+          "name": "CAMIMEX GROUP JSC",
+          "buy_amount": 5387,
+          "sell_amount": 0,
+          "net_buy_amount": 5387
+        },
+        {
+          "rank": "11",
+          "country": "베트남",
+          "isin": "VN000000GVR1",
+          "name": "VIETNAM RUBBER GROUP JSC",
+          "buy_amount": 8713,
+          "sell_amount": 4791,
+          "net_buy_amount": 3922
+        },
+        {
+          "rank": "12",
+          "country": "베트남",
+          "isin": "VN000000DGC1",
+          "name": "DUCGIANG CHEMICALS GROUP JSC",
+          "buy_amount": 9921,
+          "sell_amount": 6183,
+          "net_buy_amount": 3738
+        },
+        {
+          "rank": "13",
+          "country": "베트남",
+          "isin": "VN000000FRT7",
+          "name": "FPT DIGITAL RETAIL JSC",
+          "buy_amount": 3634,
+          "sell_amount": 0,
+          "net_buy_amount": 3634
+        },
+        {
+          "rank": "14",
+          "country": "베트남",
+          "isin": "VN000000VPL5",
+          "name": "VINPEARL JSC",
+          "buy_amount": 2902,
+          "sell_amount": 0,
+          "net_buy_amount": 2902
+        },
+        {
+          "rank": "15",
+          "country": "베트남",
+          "isin": "VN000000VCI9",
+          "name": "VIETCAP SECURITIES",
+          "buy_amount": 5111,
+          "sell_amount": 2260,
+          "net_buy_amount": 2851
+        },
+        {
+          "rank": "16",
+          "country": "베트남",
+          "isin": "VN000000VHC1",
+          "name": "VINH HOAN CORP",
+          "buy_amount": 2843,
+          "sell_amount": 205,
+          "net_buy_amount": 2638
+        },
+        {
+          "rank": "17",
+          "country": "베트남",
+          "isin": "VN000000BCM3",
+          "name": "INVESTMENT AND INDUSTRIAL DEVELOPMENT JSC",
+          "buy_amount": 1439,
+          "sell_amount": 0,
+          "net_buy_amount": 1439
+        },
+        {
+          "rank": "18",
+          "country": "베트남",
+          "isin": "VN000000BMP5",
+          "name": "BINH MINH PLASTICS JSC",
+          "buy_amount": 1148,
+          "sell_amount": 0,
+          "net_buy_amount": 1148
+        },
+        {
+          "rank": "19",
+          "country": "베트남",
+          "isin": "VN000000NCT3",
+          "name": "NOIBAI CARGO TERMINAL SERVICES JSC",
+          "buy_amount": 41314,
+          "sell_amount": 40196,
+          "net_buy_amount": 1119
+        },
+        {
+          "rank": "20",
+          "country": "베트남",
+          "isin": "VN000000VCF5",
+          "name": "VINACAFE BIEN HOA JSC",
+          "buy_amount": 1117,
+          "sell_amount": 0,
+          "net_buy_amount": 1117
+        },
+        {
+          "rank": "21",
+          "country": "베트남",
+          "isin": "VN000000BFC7",
+          "name": "BINH DIEN FERTILIZER JSC",
+          "buy_amount": 1070,
+          "sell_amount": 0,
+          "net_buy_amount": 1070
+        },
+        {
+          "rank": "22",
+          "country": "베트남",
+          "isin": "VN000000BCE0",
+          "name": "BINH DUONG CONSTRUCTION AND CIVIL ENGINEERING JSC",
+          "buy_amount": 1053,
+          "sell_amount": 0,
+          "net_buy_amount": 1053
+        },
+        {
+          "rank": "23",
+          "country": "베트남",
+          "isin": "VN0E1VFVN306",
+          "name": "VFMVN30 ETF FUND",
+          "buy_amount": 14452,
+          "sell_amount": 13612,
+          "net_buy_amount": 840
+        },
+        {
+          "rank": "24",
+          "country": "베트남",
+          "isin": "VN000000VPB6",
+          "name": "VIETNAM PROSPERITY JS COMMERCIAL BANK",
+          "buy_amount": 564,
+          "sell_amount": 0,
+          "net_buy_amount": 564
+        },
+        {
+          "rank": "25",
+          "country": "베트남",
+          "isin": "VN000000PGV5",
+          "name": "POWER GENERATION JOINT STOCK CORPORATION 3",
+          "buy_amount": 518,
+          "sell_amount": 0,
+          "net_buy_amount": 518
+        },
+        {
+          "rank": "26",
+          "country": "베트남",
+          "isin": "VN000000IVS5",
+          "name": "GUOTAI JUNAN SECURITIES VIETNAM",
+          "buy_amount": 472,
+          "sell_amount": 0,
+          "net_buy_amount": 472
+        },
+        {
+          "rank": "27",
+          "country": "베트남",
+          "isin": "VN000000NLG1",
+          "name": "NAM LONG INVESTMENT CORP",
+          "buy_amount": 457,
+          "sell_amount": 0,
+          "net_buy_amount": 457
+        },
+        {
+          "rank": "28",
+          "country": "베트남",
+          "isin": "VN000000YEG3",
+          "name": "YEAH1 GROUP CORP",
+          "buy_amount": 396,
+          "sell_amount": 0,
+          "net_buy_amount": 396
+        },
+        {
+          "rank": "29",
+          "country": "베트남",
+          "isin": "VN000000HHV0",
+          "name": "DEO CA TRAFFIC INFRASTRUCTURE INVESTEMENT JSC",
+          "buy_amount": 391,
+          "sell_amount": 0,
+          "net_buy_amount": 391
+        },
+        {
+          "rank": "30",
+          "country": "베트남",
+          "isin": "VN000000GMD0",
+          "name": "GEMADEPT CORP",
+          "buy_amount": 297,
+          "sell_amount": 0,
+          "net_buy_amount": 297
+        },
+        {
+          "rank": "31",
+          "country": "베트남",
+          "isin": "VN000000DGW9",
+          "name": "DIGIWORLD CORP",
+          "buy_amount": 261,
+          "sell_amount": 0,
+          "net_buy_amount": 261
+        },
+        {
+          "rank": "32",
+          "country": "베트남",
+          "isin": "VN0FUEMAV307",
+          "name": "MAFM VN30 ETF",
+          "buy_amount": 260,
+          "sell_amount": 0,
+          "net_buy_amount": 260
+        },
+        {
+          "rank": "33",
+          "country": "베트남",
+          "isin": "VN000000D2D0",
+          "name": "INDUSTRIAL URBAN DEVELOPMENT JSC NO 2",
+          "buy_amount": 216,
+          "sell_amount": 0,
+          "net_buy_amount": 216
+        },
+        {
+          "rank": "34",
+          "country": "베트남",
+          "isin": "VN000000ADP6",
+          "name": "ADP",
+          "buy_amount": 177,
+          "sell_amount": 0,
+          "net_buy_amount": 177
+        },
+        {
+          "rank": "35",
+          "country": "베트남",
+          "isin": "VN000000SGN6",
+          "name": "SAIGON GROUND SERVICES JSC",
+          "buy_amount": 3127,
+          "sell_amount": 2952,
+          "net_buy_amount": 175
+        },
+        {
+          "rank": "36",
+          "country": "베트남",
+          "isin": "VN000000SHN4",
+          "name": "HANOI INVESTMENT GENERAL CORP",
+          "buy_amount": 168,
+          "sell_amount": 0,
+          "net_buy_amount": 168
+        },
+        {
+          "rank": "37",
+          "country": "베트남",
+          "isin": "VN000000SHB9",
+          "name": "SAIGON-HANOI COMMERCIAL JS BANK",
+          "buy_amount": 271,
+          "sell_amount": 110,
+          "net_buy_amount": 162
+        },
+        {
+          "rank": "38",
+          "country": "베트남",
+          "isin": "VN000000VPD2",
+          "name": "VIETNAM POWER DEVELOPMENT JSC",
+          "buy_amount": 160,
+          "sell_amount": 0,
+          "net_buy_amount": 160
+        },
+        {
+          "rank": "39",
+          "country": "베트남",
+          "isin": "VN000000AGR5",
+          "name": "AGRIBANK SECURITIES JSC",
+          "buy_amount": 152,
+          "sell_amount": 0,
+          "net_buy_amount": 152
+        },
+        {
+          "rank": "40",
+          "country": "베트남",
+          "isin": "VN000000CII6",
+          "name": "HO CHI MINH CITY INFRASTRUCTURE INVESTMENT JSC",
+          "buy_amount": 2545,
+          "sell_amount": 2411,
+          "net_buy_amount": 134
+        },
+        {
+          "rank": "41",
+          "country": "베트남",
+          "isin": "VN000000DCM9",
+          "name": "PETROVIETNAM CA MAU FERTILIZER JSC",
+          "buy_amount": 119,
+          "sell_amount": 0,
+          "net_buy_amount": 119
+        },
+        {
+          "rank": "42",
+          "country": "베트남",
+          "isin": "VN000000VSC8",
+          "name": "VIETNAM CONTAINER SHIPPING JSC",
+          "buy_amount": 118,
+          "sell_amount": 0,
+          "net_buy_amount": 118
+        },
+        {
+          "rank": "43",
+          "country": "베트남",
+          "isin": "VN000000SHS3",
+          "name": "SAIGON HANOI SECURITIES JSC",
+          "buy_amount": 698,
+          "sell_amount": 587,
+          "net_buy_amount": 110
+        },
+        {
+          "rank": "44",
+          "country": "베트남",
+          "isin": "VN0FUESSV504",
+          "name": "SSIAM VNX50 ETF",
+          "buy_amount": 110,
+          "sell_amount": 0,
+          "net_buy_amount": 110
+        },
+        {
+          "rank": "45",
+          "country": "베트남",
+          "isin": "VN000000EVG9",
+          "name": "EVERLAND GROUP JSC",
+          "buy_amount": 65,
+          "sell_amount": 0,
+          "net_buy_amount": 65
+        },
+        {
+          "rank": "46",
+          "country": "베트남",
+          "isin": "VN0FUEFCV505",
+          "name": "FPT FUND MANAGEMENT JSC",
+          "buy_amount": 60,
+          "sell_amount": 0,
+          "net_buy_amount": 60
+        },
+        {
+          "rank": "47",
+          "country": "베트남",
+          "isin": "VN000000TVS2",
+          "name": "THIEN VIET SECURITIES JSC",
+          "buy_amount": 52,
+          "sell_amount": 0,
+          "net_buy_amount": 52
+        },
+        {
+          "rank": "48",
+          "country": "베트남",
+          "isin": "VN000000TCH5",
+          "name": "HOANG HUY INVESTMENT FINANCIAL SERVICES JSC",
+          "buy_amount": 45,
+          "sell_amount": 0,
+          "net_buy_amount": 45
+        },
+        {
+          "rank": "49",
+          "country": "베트남",
+          "isin": "VN000000HAR3",
+          "name": "AN DUONG THAO DIEN REAL ESTATE TRADE",
+          "buy_amount": 33,
+          "sell_amount": 0,
+          "net_buy_amount": 33
+        },
+        {
+          "rank": "50",
+          "country": "베트남",
+          "isin": "VN000000FCM4",
+          "name": "FECON MINING JSC",
+          "buy_amount": 24,
+          "sell_amount": 0,
+          "net_buy_amount": 24
+        }
+      ]
+    }
+  },
+  "previous": {
     "1W": {
       "전체": [
         {
@@ -5339,9 +10679,5 @@
         }
       ]
     }
-  },
-  "previous": {
-    "1W": {},
-    "1M": {}
   }
 }
